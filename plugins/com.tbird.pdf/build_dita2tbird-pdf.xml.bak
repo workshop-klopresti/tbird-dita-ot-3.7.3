@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- @name reflect what the build is doing; purpose of build; not used anywhere; best practice to identify-->
+<project xmlns:dita="http://dita-ot.sourceforge.net" xmlns:if="ant:if" xmlns:unless="ant:unless"
+    name="dita2tbird-pdf" basedir=".">
+
+    <!-- Provice instructions to the OT -->
+    <!-- Toolkit will find the target with this transtype -->
+    <!-- @depends is for specific parameters for this output-->
+    <!-- For ant builds tbird conventions must come first before out-of-the-box -->
+    <!-- @name should match transtype @name in plugin file @name="tbird-pdf"  -->
+    <target name="dita2tbird-pdf" depends="dita2tbird-pdf.init, dita2pdf2"/>
+
+    <!-- *.init contains properties, build parameters, opportunities to choose pre-programmed variants -->
+    <target name="dita2tbird-pdf.init">
+
+        <!-- PDF-specific -->
+        <!-- Shell file to call in template overrides -->
+         <property name="args.xsl.pdf" location="${dita.plugin.com.tbird.pdf.dir}/xsl/fo/tbird_topic2fo.xsl"/> 
+        <!-- Generate chapter-level table of contents BASIC vs Mini-TOC-->
+        <property name="args.chapter.layout" value="BASIC"/>
+        <!-- Collapsed or open PDF bookmarks; in Adobe Reader navigation-->
+        <property name="args.bookmark.style" value="COLLAPSED"/>
+        <!-- Retain bookmap order; define a customer order for frontmatter elements -->
+        <property name="args.bookmap-order" value="retain"/>
+
+        <!-- CONTAINER FOR COMMON BUILD PARAMETERS -->
+        <!-- Any output format -->
+        <!-- Generate task labels -->
+        <property name="args.gen.task.lbl" value="YES"/>
+        <!-- Generate related links -->
+        <property name="args.rellinks" value="none"/>
+        <!-- Specifies figure reference link style -->
+        <property name="args.figurelink.style" value="NUMTITLE"/>
+        <!-- Specifies table reference link style -->
+        <property name="args.tablelink.style" value="NUMTITLE"/>
+    </target>
+
+</project>

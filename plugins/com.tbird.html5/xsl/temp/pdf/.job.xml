@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<job>
+  <property name="temp-file-name-scheme">
+    <string>org.dita.dost.module.reader.HashTempFileScheme</string>
+  </property>
+</job>

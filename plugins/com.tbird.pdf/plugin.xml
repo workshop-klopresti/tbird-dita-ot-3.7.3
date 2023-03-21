@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="dita-ot/plugin.rnc" type="application/relax-ng-compact-syntax"?>
+<!-- 10/6/2022 KLL Publishing DITA session 2-->
+
+<plugin id="com.tbird.pdf">
+    <!-- Base Dependencies -->
+    <!-- This is an extension of the base PDF -->
+    <require plugin="org.dita.pdf2"/>
+
+    <!-- Declare transformation type and any extensions -->
+    <!-- @name (ID) has no requirements beyond no spaces or special characters -->
+    <!-- @name should match target @name in build file @name="dita2tbird-pdf"  -->
+    <!-- @extends this plugin is an extension of an out-of-the box transtype. Tells Open Toolkit that any info it knows about 'pdf2' transype applies here and then some -->
+    <!-- @desc appears in as DITA Scenario type in Oxygen -->
+    <transtype name="tbird-pdf" extends="pdf2" desc="Tbird PDF training 2023"/>
+
+    <!-- Extension Point to User   -->
+    <!-- Guides OT to where to find instructions on how to create tbird-pdf   -->
+    <!-- Where to find more information and add more functionality to the DITA OT -->
+    <!-- references build file-->
+    <!-- OT understands that ant.import defines the purpose of build file -->
+    <feature extension="ant.import" file="build_dita2tbird-pdf.xml"/>
+
+    <feature extension="dita.xsl.strings" file="cfg/common/vars/strings.xml"/>
+</plugin>

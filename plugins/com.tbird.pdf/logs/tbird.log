@@ -1,0 +1,1115 @@
+Detected Java version: 17 in: c:\program files\oxygen xml author 24\jre
+Detected OS: Windows 10
+parsing buildfile C:\dita-ot-3.7.3\build.xml with URI = file:/C:/dita-ot-3.7.3/build.xml
+Project base dir set to: C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird
+parsing buildfile jar:file:/C:/dita-ot-3.7.3/lib/ant.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/C:/dita-ot-3.7.3/lib/ant.jar!/org/apache/tools/ant/antlib.xml from a zip file
+parsing buildfile jar:file:/C:/Program%20Files/Oxygen%20XML%20Author%2024/tools/ant/lib/ant.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/C:/Program%20Files/Oxygen%20XML%20Author%2024/tools/ant/lib/ant.jar!/org/apache/tools/ant/antlib.xml from a zip file
+Override ignored for property "dita.dir"
+Override ignored for property "dita.dir"
+ [property] Loading C:\dita-ot-3.7.3\local.properties
+ [property] Unable to find property file: C:\dita-ot-3.7.3\local.properties
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml from C:\dita-ot-3.7.3\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.base/build.xml
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.base\build_init.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.base\build_init.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.base/build_init.xml
+ [property] Loading C:\dita-ot-3.7.3\config\org.dita.dost.platform\plugin.properties
+ [property] Loading C:\dita-ot-3.7.3\config\configuration.properties
+ [macrodef] creating macro  job-helper
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.base\build_preprocess.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.base\build_preprocess.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.base/build_preprocess.xml
+Property "conserve-memory" has not been set
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.base\build_preprocess2.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.base\build_preprocess2.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.base/build_preprocess2.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.pdf2\build.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.pdf2\build.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.pdf2/build.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\com.tbird.pdf\build_dita2tbird-pdf.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\com.tbird.pdf\build_dita2tbird-pdf.xml with URI = file:/C:/dita-ot-3.7.3/plugins/com.tbird.pdf/build_dita2tbird-pdf.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.xhtml\build_general.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.xhtml\build_general.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.xhtml/build_general.xml
+ [macrodef] creating macro  topics.html
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.xhtml\build_dita2xhtml.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.xhtml\build_dita2xhtml.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.xhtml/build_dita2xhtml.xml
+ [macrodef] creating macro  map.html
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.eclipsehelp\build_dita2eclipsehelp.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.eclipsehelp\build_dita2eclipsehelp.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.eclipsehelp/build_dita2eclipsehelp.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.html5\build_dita2html5.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.html5\build_dita2html5.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.html5/build_dita2html5.xml
+ [macrodef] creating macro  html5.topics
+ [macrodef] creating macro  html5.map
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.htmlhelp\build_dita2htmlhelp.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.htmlhelp\build_dita2htmlhelp.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.htmlhelp/build_dita2htmlhelp.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.index\build.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.index\build.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.index/build.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.pdf2.axf\build.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.pdf2.axf\build.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.pdf2.axf/build.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.pdf2.fop\build_fop.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.pdf2.fop\build_fop.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.pdf2.fop/build_fop.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.pdf2.xep\build.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.pdf2.xep\build.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.pdf2.xep/build.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.normalize\build.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.normalize\build.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.normalize/build.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.lwdita\build-markdown.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.lwdita\build-markdown.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.lwdita/build-markdown.xml
+ [macrodef] creating macro  markdown.map
+ [macrodef] creating macro  markdown.topics
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.lwdita\build-html.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.lwdita\build-html.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.lwdita/build-html.xml
+Overriding previous definition of reference to ant.projectHelper
+Overriding previous definition of reference to ant.projectHelper
+Build sequence for target(s) `init' is [init]
+Complete build sequence is [init, dita2pdf2.init, dita.index.eclipsehelp.init, ditaot-preprocess.mapref-check, conref, transform.topic2pdf.init, preview.topic.pdf.init, copyCoreArtwork, transform.fo2pdf.xep.test-use, transform.fo2pdf.xep.init, transform.fo2pdf.fop.test-use, transform.fo2pdf.fop.init, transform.fo2pdf.ah.test-use, transform.fo2pdf.ah.init, transform.topic2fo.init, org.dita.index.init, org.dita.index, transform.topic2fo.main, transform.topic2fo.i18n.filter, transform.topic2fo.i18n.no-filter, transform.topic2fo.i18n, transform.topic2fo, transform.fo2pdf.xep, transform.fo2pdf.fop, transform.fo2pdf.ah, transform.fo2pdf, transform.topic2pdf, dita.build.preview.topic.pdf, ditaot-preprocess.maplink-check, markdown_github.init, init-properties, check-arg, log-arg, build-init, preprocess.init, ditaval-merge, gen-list, debug-filter, mapref-check, mapref, branch-filter, keyref, copy-to, conrefpush, profile-check, profile, topic-fragment, chunk-check, chunk, move-meta-entries, maplink-check, maplink, topicpull-check, topicpull, clean-map-check, clean-map, clean-preprocess, copy-image, copy-html, copy-flag-check, copy-flag, copy-files, preprocess, markdown.init, markdown.topics.common, markdown.topics.common.inner, markdown.topic, markdown.map.init, markdown.map.toc, markdown.map, dita2markdown, dita2normalize.dita2markdown_github, dita2normalize.markdown.topics.common, ditaot-init.check-arg, dita2dita, org.dita.pdf2.xep.transform.fo2pdf.xep, dita2htmlhelp.init, ditaot-preprocess.profile-check, dita2html5.html5.map.toc, html5.map.init, html5.map.toc, dita2html5.html5.map, ditaot-preprocess2.map-conrefpush, dita2eclipsehelp.dita.map.eclipse.plugin.init, dita.map.eclipse.plugin.init, dita.map.eclipse.plugin, ditaot-preprocess.debug-filter, dita.map.eclipse.fragment.move.files, dita2normalize.dita.out.map.hdita.toc, xhtml.init, xhtml.image-metadata, htmlhelp.topics, ditaot-init.build-init, dita2xhtml.copy-css-user, ditaot-preprocess.copy-to, ditaot-preprocess.keyref, ditaot-preprocess.copy-flag-check, ditaot-preprocess2.topic-keyref, transform.topic2fo.index.init, dita.build.transform.topic2fo.index, ditaot-preprocess2.topic-maplink, preprocess2.init, map-reader, map-mapref, map-branch-filter, map-keyref, map-conrefpush, map-conref, map-profile-check, map-profile, preprocess2.maps, topic-reader, topic-branch-filter, topic-keyref, topic-copy-to, topic-conrefpush, topic-conref, topic-profile-check, topic-profile, preprocess2.topic-fragment, topic-chunk, topic-move-meta-entries, topic-maplink, topic-topicpull, preprocess2.topics, map-clean-map, copy-image2, copy-files2, preprocess2, build_generaltargets.output-css-warn-message, ditaot-preprocess2.topic-reader, ditaot-preprocess.chunk, dita.topics.html.common, dita.build.transform.topic2fo.i18n.filter, org.dita.pdf2.axf.transform.fo2pdf.ah.nooption, ditaot-preprocess2.topic-branch-filter, build_generaltargets.xhtml.image-metadata, dita2normalize.dita.topics.hdita.common, dita.map.xhtml.init, dita.map.xhtml.toc, dita.map.xhtml, dita.map.eclipse.toc, dita.build.transform.topic2fo.i18n, org.dita.pdf2.axf.transform.fo2pdf.ah, html5.topic.init, org.dita.pdf2.xep.transform.fo2pdf.xep.test-use, dita2tbird-pdf.init, map2pdf2, topic2pdf2, dita2pdf2, dita2tbird-pdf.dita2tbird-pdf, ditaot-preprocess2.preprocess2.topic-fragment, markdown_gitbook.init, dita2eclipsehelp.dita.map.eclipse.fragment.language.init, ditaot-preprocess.preprocess.init, copy-revflag, ditaot-preprocess.clean-map, dita2xhtml.init, dita.build.dita2pdf2, hdita.init, ditaot-preprocess.clean-preprocess, dita2xhtml.dita.out.map.xhtml.toc, org.dita.pdf2.xep.transform.fo2pdf.xep.init, ditaot-preprocess2.preprocess2, org.dita.pdf2.axf.transform.fo2pdf.ah.test-use, ditaot-preprocess.maplink, ditaot-init.init-properties, ditaot-preprocess.preprocess, use-init.envhhcdir, use-init.hhcdir, htmlhelp.copy-image, copy-css, dita2htmlhelp.dita2htmlhelp, publish.map.pdf.init, dita2xhtml.dita.map.xhtml, copy-plugin-files, ditaot-preprocess2.map-clean-map, dita.build.dita2pdf, ditaot-preprocess.conrefpush, dita.map.eclipse.init, dita2eclipsehelp.dita.map.eclipse.fragment.error, ditaot-preprocess.branch-filter, dita.map.hdita.init, dita2eclipsehelp.copy-plugin-files, dita.build.transform.fo2pdf, html5.init, dita2eclipsehelp.dita.out.map.eclipse.plugin, build.eclipse.jar, org.dita.pdf2.fop.transform.fo2pdf.fop, dita.build.transform.topic2pdf.init, ditaot-preprocess2.map-mapref, dita.map.eclipse.fragment.language.init, ditaot-preprocess.gen-list, build_generaltargets.dita.topics.html.common, dita2htmlhelp.use-init.hhcdir, dita.build.publish.map.pdf, html5.topics.common.inner, dita2normalize.hdita.init, DOST.init, DOST.help, transform.fo2pdf.ah.nooption, dita.inner.topics.hdita.common, dita2htmlhelp.dita.htmlhelp.convertlang, ditaot-preprocess2.topic-topicpull, dita2eclipsehelp.dita.out.map.eclipse.toc, dita2normalize.markdown.init, html5.image-metadata, html5.topics.common, dita2html5.html5.topic, ditaot-preprocess.chunk-check, dita2normalize.markdown_gitbook.init, dita2htmlhelp.org.dita.index, build_generaltargets.dita.inner.topics.html.common, html5.topic, preprocess2-topic, ditaot-preprocess2.map-profile-check, dita.out.map.eclipse.plugin.properties, dita2eclipsehelp.dita.map.eclipse.index, ditaot-preprocess.profile, dita2normalize.markdown.topics.common.inner, dita.map.eclipse.fragment.language.country.init, dita2eclipsehelp.dita.map.eclipse.plugin.properties, ditaot-preprocess.copy-files, dita.inner.topics.html.common, build_generaltargets.xhtml.topics, org.dita.pdf2.fop.transform.fo2pdf.fop.test-use, dita2htmlhelp.dita2htmlhelp.init, dita.map.htmlhelp.init, ditaot-preprocess2.map-conref, dita.map.eclipse.index, dita.map.eclipse.plugin.properties, dita.map.eclipse.manifest.file, dita.out.map.eclipse.manifest.file, dita.out.map.eclipse.toc, dita.out.map.eclipse.index, dita.out.map.eclipse.plugin, dita.out.map.eclipse.fragment.move.files, dita.map.eclipse.genetrate.fragment, ditaot-preprocess.topicpull-check, help, ditaot-preprocess2.preprocess2-topic, dita.map.eclipse.fragment.error, ditaot-preprocess2.map-reader, ditaot-init.log-arg, dita2xhtml.copy-css, dita2normalize.markdown.map.toc, ditaot-preprocess.move-meta-entries, dita2markdown_gitbook, html5.css, dita.build.transform.topic2fo, preview.topic.pdf, transform.topic2fo.index, dita2eclipsehelp.dita.map.eclipse.init, xhtml.topics, dita2xhtml.dita2xhtml, ditaot-preprocess2.topic-move-meta-entries, dita2normalize.dita.inner.topics.hdita.common, dita2normalize.markdown_github.init, dita2eclipsehelp.dita.map.eclipse.toc, dita2normalize.dita2dita, ditaot-preprocess.copy-html, dita2normalize.markdown.topic, dita2html5.html5.topic.init, dita.topics.hdita.common, dita.map.hdita.toc, dita.out.map.hdita.toc, dita2normalize.dita2hdita, dita.map.eclipse.generate.plugin, clean-temp, dita2xhtml.dita2xhtml.init, ditaot-preprocess.copy-image, ditaot-preprocess.ditaval-merge, dita.map.htmlhelp.hhp, dita.map.htmlhelp.hhc, dita.map.htmlhelp.hhk, dita.htmlhelp.convertlang, compile.HTML.Help, dita.map.htmlhelp, dita2tbird-pdf.dita2tbird-pdf.init, dita2html5.html5.init, build_generaltargets.xhtml.init, dita2html5.html5.topics.common.inner, dita2xhtml.dita.map.xhtml.toc, org.dita.pdf2.fop.transform.fo2pdf.fop.init, dita2eclipsehelp.dita.out.map.eclipse.index, ditaot-preprocess2.preprocess2.maps, dita2eclipsehelp.build.eclipse.jar, ditaot-preprocess2.map-branch-filter, dita2normalize.markdown.map.init, dita2htmlhelp.compile.HTML.Help, dita.build.transform.topic2fo.index.init, dita2htmlhelp.dita.map.htmlhelp, html5.map, dita2html5, dita2html5.html5.map.init, ditaot-preprocess.mapref, dita2eclipsehelp.dita.out.map.eclipse.manifest.file, dita.build.transform.topic2fo.main, ditaot-preprocess.clean-map-check, dita2normalize.dita.map.hdita.toc, dita2eclipsehelp.dita.map.eclipse.genetrate.fragment, dita2eclipsehelp.dita.map.eclipse.fragment.language.country.init, dita.build.publish.map.pdf.init, ditaot-preprocess2.copy-image2, ditaot-preprocess.clean-temp, dita.build.dita2pdf2.init, dita2normalize.dita2markdown_gitbook, dita2eclipsehelp.dita.map.eclipse.manifest.file, dita2eclipsehelp.dita.out.map.eclipse.fragment.move.files, html5.copy-css-user, dita.eclipsehelp.init, dita2htmlhelp.org.dita.index.init, dita2hdita, dita2normalize.markdown.map, dita.build.transform.topic2fo.init, dita.out.map.xhtml.toc, ditaot-preprocess.copy-flag, dita2htmlhelp.htmlhelp.topics, dita2xhtml, dita2eclipsehelp.dita.index.eclipsehelp.init, org.dita.pdf2.axf.transform.fo2pdf.ah.hasoption, dita2eclipsehelp.dita.map.eclipse.generate.plugin, dita.build.preview.topic.pdf.init, ditaot-preprocess2.map-keyref, dita2htmlhelp.dita.map.htmlhelp.init, transform.fo2pdf.ah.hasoption, dita2eclipsehelp.dita.map.eclipse.plugin, ditaot-preprocess2.copy-files2, dita2pdf, ditaot-preprocess.conref, ditaot-preprocess2.topic-conref, dita.build.transform.topic2fo.i18n.no-filter, dita.build.copyCoreArtwork, dita2normalize.dita2markdown, dita2xhtml.copy-revflag, dita.build.transform.topic2pdf, dita2markdown_github, ditaot-preprocess.topic-fragment, ditaot-preprocess2.topic-conrefpush, dita.map.eclipse, dita2eclipsehelp.dita2eclipsehelp, ditaot-preprocess2.preprocess2.topics, dita2html5.html5.css, dita2eclipsehelp, dita2eclipsehelp.dita.map.eclipse, dita.build.topic2pdf2, dita2eclipsehelp.dita.map.eclipse.fragment.move.files, dita2html5.html5.copy-css-user, dita2normalize.dita.map.hdita.init, dita2htmlhelp.dita.map.htmlhelp.hhp, ditaot-preprocess2.map-profile, ditaot-preprocess.topicpull, dita2htmlhelp.dita.map.htmlhelp.hhk, ditaot-preprocess2.topic-profile-check, output-css-warn-message, dita2htmlhelp.dita.map.htmlhelp.hhc, dita2htmlhelp.htmlhelp.copy-image, dita2htmlhelp.use-init.envhhcdir, dita2html5.html5.image-metadata, copy-css-user, dita2htmlhelp, dita2eclipsehelp.dita.out.map.eclipse.plugin.properties, dita.build.map2pdf2, dita2html5.html5.topics.common, ditaot-preprocess2.topic-copy-to, dita2html5.dita2html5, org.dita.pdf2.axf.transform.fo2pdf.ah.init, ditaot-preprocess2.topic-chunk, dita2eclipsehelp.dita.eclipsehelp.init, ditaot-preprocess2.preprocess2.init, publish.map.pdf, dita2xhtml.dita.map.xhtml.init, dita2tbird-pdf, , ditaot-preprocess2.topic-profile]
+
+init:
+Project base dir set to: C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird
+  [antcall] calling target(s) [dita2tbird-pdf, clean-temp] in build file C:\dita-ot-3.7.3\build.xml
+parsing buildfile C:\dita-ot-3.7.3\build.xml with URI = file:/C:/dita-ot-3.7.3/build.xml
+Project base dir set to: C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird
+Override ignored for property "ant.file.DOST.dir"
+Override ignored for property "dita.dir"
+Override ignored for property "dita.dir"
+ [property] Loading C:\dita-ot-3.7.3\local.properties
+ [property] Unable to find property file: C:\dita-ot-3.7.3\local.properties
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml from C:\dita-ot-3.7.3\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.base/build.xml
+Override ignored for property "dita.plugin.org.dita.base.dir"
+Override ignored for property "dita.plugin.org.dita.htmlhelp.dir"
+Override ignored for property "dita.plugin.org.dita.pdf2.xep.dir"
+Override ignored for property "dita.plugin.org.oasis-open.dita.techcomm.v2_0.dir"
+Override ignored for property "dita.plugin.org.dita.eclipsehelp.dir"
+Override ignored for property "dita.plugin.org.dita.pdf2.fop.dir"
+Override ignored for property "dita.plugin.org.dita.specialization.dita11.dir"
+Override ignored for property "dita.plugin.com.tbird.pdf.dir"
+Override ignored for property "dita.plugin.org.dita.normalize.dir"
+Override ignored for property "dita.plugin.org.oasis-open.xdita.v0_2_2.dir"
+Override ignored for property "dita.plugin.org.dita.pdf2.axf.dir"
+Override ignored for property "dita.plugin.org.dita.html5.dir"
+Override ignored for property "dita.plugin.org.dita.index.dir"
+Override ignored for property "dita.plugin.org.dita.xhtml.dir"
+Override ignored for property "dita.plugin.org.lwdita.dir"
+Override ignored for property "dita.plugin.org.dita.pdf2.dir"
+Override ignored for property "dita.plugin.org.oasis-open.dita.v1_2.dir"
+Override ignored for property "dita.plugin.org.oasis-open.dita.v1_3.dir"
+Override ignored for property "dita.plugin.org.oasis-open.dita.v2_0.dir"
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.base\build_init.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.base\build_init.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.base/build_init.xml
+Override ignored for property "otrelease"
+Override ignored for property "otversion"
+ [property] Loading C:\dita-ot-3.7.3\config\org.dita.dost.platform\plugin.properties
+Override ignored for property "plugin.org.dita.eclipsehelp.dir"
+Override ignored for property "plugin.org.oasis-open.xdita.v0_2_2.dir"
+Override ignored for property "plugin.org.dita.htmlhelp.dir"
+Override ignored for property "plugin.com.tbird.pdf.dir"
+Override ignored for property "transtypes"
+Override ignored for property "plugin.org.dita.base.dir"
+Override ignored for property "parser.md"
+Override ignored for property "parser.mdita"
+Override ignored for property "plugin.org.dita.specialization.dita11.dir"
+Override ignored for property "parser.hdita"
+Override ignored for property "plugin.org.dita.normalize.dir"
+Override ignored for property "plugin.org.dita.pdf2.axf.dir"
+Override ignored for property "plugin.org.dita.pdf2.dir"
+Override ignored for property "print_transtypes"
+Override ignored for property "plugin.org.oasis-open.dita.techcomm.v2_0.dir"
+Override ignored for property "plugin.org.oasis-open.dita.v1_2.dir"
+Override ignored for property "supported_resource_extensions"
+Override ignored for property "plugin.org.dita.xhtml.dir"
+Override ignored for property "plugin.org.dita.pdf2.fop.dir"
+Override ignored for property "plugin.org.dita.index.dir"
+Override ignored for property "plugin.org.lwdita.dir"
+Override ignored for property "plugin.org.dita.pdf2.xep.dir"
+Override ignored for property "supported_html_extensions"
+Override ignored for property "supported_image_extensions"
+Override ignored for property "plugin.org.oasis-open.dita.v2_0.dir"
+Override ignored for property "plugin.org.oasis-open.dita.v1_3.dir"
+Override ignored for property "parser.markdown"
+Override ignored for property "plugin.org.dita.html5.dir"
+ [property] Loading C:\dita-ot-3.7.3\config\configuration.properties
+Override ignored for property "default.cascade"
+Override ignored for property "registry"
+Override ignored for property "plugin.ignores"
+Override ignored for property "plugin.order"
+Override ignored for property "temp-file-name-scheme"
+Override ignored for property "plugindirs"
+Override ignored for property "org.dita.pdf2.i18n.enabled"
+Override ignored for property "cli.color"
+ [macrodef] creating macro  job-helper
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.base\build_preprocess.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.base\build_preprocess.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.base/build_preprocess.xml
+Property "conserve-memory" has not been set
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.base\build_preprocess2.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.base\build_preprocess2.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.base/build_preprocess2.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.pdf2\build.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.pdf2\build.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.pdf2/build.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\com.tbird.pdf\build_dita2tbird-pdf.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\com.tbird.pdf\build_dita2tbird-pdf.xml with URI = file:/C:/dita-ot-3.7.3/plugins/com.tbird.pdf/build_dita2tbird-pdf.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.xhtml\build_general.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.xhtml\build_general.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.xhtml/build_general.xml
+ [macrodef] creating macro  topics.html
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.xhtml\build_dita2xhtml.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.xhtml\build_dita2xhtml.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.xhtml/build_dita2xhtml.xml
+ [macrodef] creating macro  map.html
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.eclipsehelp\build_dita2eclipsehelp.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.eclipsehelp\build_dita2eclipsehelp.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.eclipsehelp/build_dita2eclipsehelp.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.html5\build_dita2html5.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.html5\build_dita2html5.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.html5/build_dita2html5.xml
+ [macrodef] creating macro  html5.topics
+ [macrodef] creating macro  html5.map
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.htmlhelp\build_dita2htmlhelp.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.htmlhelp\build_dita2htmlhelp.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.htmlhelp/build_dita2htmlhelp.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.index\build.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.index\build.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.index/build.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.pdf2.axf\build.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.pdf2.axf\build.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.pdf2.axf/build.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.pdf2.fop\build_fop.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.pdf2.fop\build_fop.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.pdf2.fop/build_fop.xml
+Override ignored for property "fop.home"
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.pdf2.xep\build.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.pdf2.xep\build.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.pdf2.xep/build.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.normalize\build.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.normalize\build.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.normalize/build.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.lwdita\build-markdown.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.lwdita\build-markdown.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.lwdita/build-markdown.xml
+ [macrodef] creating macro  markdown.map
+ [macrodef] creating macro  markdown.topics
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.lwdita\build-html.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.lwdita\build-html.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.lwdita/build-html.xml
+Overriding previous definition of reference to ant.projectHelper
+Overriding previous definition of reference to ant.projectHelper
+Build sequence for target(s) `dita2tbird-pdf' is [dita2tbird-pdf.init, dita2pdf2.init, init-properties, check-arg, log-arg, build-init, preprocess2.init, ditaval-merge, map-reader, map-mapref, map-branch-filter, map-keyref, map-conrefpush, map-conref, map-profile-check, map-profile, preprocess2.maps, topic-reader, topic-branch-filter, topic-keyref, topic-copy-to, topic-conrefpush, topic-conref, topic-profile-check, topic-profile, preprocess2.topic-fragment, topic-chunk, topic-move-meta-entries, topic-maplink, topic-topicpull, preprocess2.topics, map-clean-map, clean-preprocess, copy-image2, copy-html, copy-flag-check, copy-flag, copy-files2, preprocess2, map2pdf2, topic2pdf2, dita2pdf2, dita2tbird-pdf]
+Complete build sequence is [dita2tbird-pdf.init, dita2pdf2.init, init-properties, check-arg, log-arg, build-init, preprocess2.init, ditaval-merge, map-reader, map-mapref, map-branch-filter, map-keyref, map-conrefpush, map-conref, map-profile-check, map-profile, preprocess2.maps, topic-reader, topic-branch-filter, topic-keyref, topic-copy-to, topic-conrefpush, topic-conref, topic-profile-check, topic-profile, preprocess2.topic-fragment, topic-chunk, topic-move-meta-entries, topic-maplink, topic-topicpull, preprocess2.topics, map-clean-map, clean-preprocess, copy-image2, copy-html, copy-flag-check, copy-flag, copy-files2, preprocess2, map2pdf2, topic2pdf2, dita2pdf2, dita2tbird-pdf, dita.index.eclipsehelp.init, ditaot-preprocess.mapref-check, conref, transform.topic2pdf.init, preview.topic.pdf.init, copyCoreArtwork, transform.fo2pdf.xep.test-use, transform.fo2pdf.xep.init, transform.fo2pdf.fop.test-use, transform.fo2pdf.fop.init, transform.fo2pdf.ah.test-use, transform.fo2pdf.ah.init, transform.topic2fo.init, org.dita.index.init, org.dita.index, transform.topic2fo.main, transform.topic2fo.i18n.filter, transform.topic2fo.i18n.no-filter, transform.topic2fo.i18n, transform.topic2fo, transform.fo2pdf.xep, transform.fo2pdf.fop, transform.fo2pdf.ah, transform.fo2pdf, transform.topic2pdf, dita.build.preview.topic.pdf, ditaot-preprocess.maplink-check, markdown_github.init, preprocess.init, gen-list, debug-filter, mapref-check, mapref, branch-filter, keyref, copy-to, conrefpush, profile-check, profile, topic-fragment, chunk-check, chunk, move-meta-entries, maplink-check, maplink, topicpull-check, topicpull, clean-map-check, clean-map, copy-image, copy-files, preprocess, markdown.init, markdown.topics.common, markdown.topics.common.inner, markdown.topic, markdown.map.init, markdown.map.toc, markdown.map, dita2markdown, dita2normalize.dita2markdown_github, dita2normalize.markdown.topics.common, ditaot-init.check-arg, dita2dita, org.dita.pdf2.xep.transform.fo2pdf.xep, dita2htmlhelp.init, ditaot-preprocess.profile-check, dita2html5.html5.map.toc, html5.map.init, html5.map.toc, dita2html5.html5.map, ditaot-preprocess2.map-conrefpush, dita2eclipsehelp.dita.map.eclipse.plugin.init, dita.map.eclipse.plugin.init, dita.map.eclipse.plugin, ditaot-preprocess.debug-filter, dita.map.eclipse.fragment.move.files, dita2normalize.dita.out.map.hdita.toc, xhtml.init, xhtml.image-metadata, htmlhelp.topics, ditaot-init.build-init, dita2xhtml.copy-css-user, ditaot-preprocess.copy-to, ditaot-preprocess.keyref, ditaot-preprocess.copy-flag-check, ditaot-preprocess2.topic-keyref, transform.topic2fo.index.init, dita.build.transform.topic2fo.index, ditaot-preprocess2.topic-maplink, build_generaltargets.output-css-warn-message, ditaot-preprocess2.topic-reader, ditaot-preprocess.chunk, dita.topics.html.common, dita.build.transform.topic2fo.i18n.filter, org.dita.pdf2.axf.transform.fo2pdf.ah.nooption, ditaot-preprocess2.topic-branch-filter, build_generaltargets.xhtml.image-metadata, dita2normalize.dita.topics.hdita.common, dita.map.xhtml.init, dita.map.xhtml.toc, dita.map.xhtml, dita.map.eclipse.toc, dita.build.transform.topic2fo.i18n, org.dita.pdf2.axf.transform.fo2pdf.ah, html5.topic.init, org.dita.pdf2.xep.transform.fo2pdf.xep.test-use, dita2tbird-pdf.dita2tbird-pdf, ditaot-preprocess2.preprocess2.topic-fragment, markdown_gitbook.init, dita2eclipsehelp.dita.map.eclipse.fragment.language.init, ditaot-preprocess.preprocess.init, copy-revflag, ditaot-preprocess.clean-map, dita2xhtml.init, dita.build.dita2pdf2, hdita.init, ditaot-preprocess.clean-preprocess, dita2xhtml.dita.out.map.xhtml.toc, org.dita.pdf2.xep.transform.fo2pdf.xep.init, ditaot-preprocess2.preprocess2, org.dita.pdf2.axf.transform.fo2pdf.ah.test-use, ditaot-preprocess.maplink, ditaot-init.init-properties, ditaot-preprocess.preprocess, use-init.envhhcdir, use-init.hhcdir, htmlhelp.copy-image, copy-css, dita2htmlhelp.dita2htmlhelp, publish.map.pdf.init, dita2xhtml.dita.map.xhtml, copy-plugin-files, ditaot-preprocess2.map-clean-map, dita.build.dita2pdf, ditaot-preprocess.conrefpush, dita.map.eclipse.init, dita2eclipsehelp.dita.map.eclipse.fragment.error, ditaot-preprocess.branch-filter, dita.map.hdita.init, dita2eclipsehelp.copy-plugin-files, dita.build.transform.fo2pdf, html5.init, dita2eclipsehelp.dita.out.map.eclipse.plugin, build.eclipse.jar, org.dita.pdf2.fop.transform.fo2pdf.fop, dita.build.transform.topic2pdf.init, ditaot-preprocess2.map-mapref, dita.map.eclipse.fragment.language.init, ditaot-preprocess.gen-list, build_generaltargets.dita.topics.html.common, dita2htmlhelp.use-init.hhcdir, dita.build.publish.map.pdf, html5.topics.common.inner, dita2normalize.hdita.init, DOST.init, DOST.help, transform.fo2pdf.ah.nooption, dita.inner.topics.hdita.common, dita2htmlhelp.dita.htmlhelp.convertlang, ditaot-preprocess2.topic-topicpull, dita2eclipsehelp.dita.out.map.eclipse.toc, dita2normalize.markdown.init, html5.image-metadata, html5.topics.common, dita2html5.html5.topic, ditaot-preprocess.chunk-check, dita2normalize.markdown_gitbook.init, dita2htmlhelp.org.dita.index, build_generaltargets.dita.inner.topics.html.common, html5.topic, preprocess2-topic, ditaot-preprocess2.map-profile-check, dita.out.map.eclipse.plugin.properties, dita2eclipsehelp.dita.map.eclipse.index, ditaot-preprocess.profile, dita2normalize.markdown.topics.common.inner, dita.map.eclipse.fragment.language.country.init, dita2eclipsehelp.dita.map.eclipse.plugin.properties, ditaot-preprocess.copy-files, dita.inner.topics.html.common, build_generaltargets.xhtml.topics, org.dita.pdf2.fop.transform.fo2pdf.fop.test-use, dita2htmlhelp.dita2htmlhelp.init, dita.map.htmlhelp.init, ditaot-preprocess2.map-conref, dita.map.eclipse.index, dita.map.eclipse.plugin.properties, dita.map.eclipse.manifest.file, dita.out.map.eclipse.manifest.file, dita.out.map.eclipse.toc, dita.out.map.eclipse.index, dita.out.map.eclipse.plugin, dita.out.map.eclipse.fragment.move.files, dita.map.eclipse.genetrate.fragment, ditaot-preprocess.topicpull-check, init, help, ditaot-preprocess2.preprocess2-topic, dita.map.eclipse.fragment.error, ditaot-preprocess2.map-reader, ditaot-init.log-arg, dita2xhtml.copy-css, dita2normalize.markdown.map.toc, ditaot-preprocess.move-meta-entries, dita2markdown_gitbook, html5.css, dita.build.transform.topic2fo, preview.topic.pdf, transform.topic2fo.index, dita2eclipsehelp.dita.map.eclipse.init, xhtml.topics, dita2xhtml.dita2xhtml, ditaot-preprocess2.topic-move-meta-entries, dita2normalize.dita.inner.topics.hdita.common, dita2normalize.markdown_github.init, dita2eclipsehelp.dita.map.eclipse.toc, dita2normalize.dita2dita, ditaot-preprocess.copy-html, dita2normalize.markdown.topic, dita2html5.html5.topic.init, dita.topics.hdita.common, dita.map.hdita.toc, dita.out.map.hdita.toc, dita2normalize.dita2hdita, dita.map.eclipse.generate.plugin, clean-temp, dita2xhtml.dita2xhtml.init, ditaot-preprocess.copy-image, ditaot-preprocess.ditaval-merge, dita.map.htmlhelp.hhp, dita.map.htmlhelp.hhc, dita.map.htmlhelp.hhk, dita.htmlhelp.convertlang, compile.HTML.Help, dita.map.htmlhelp, dita2tbird-pdf.dita2tbird-pdf.init, dita2html5.html5.init, build_generaltargets.xhtml.init, dita2html5.html5.topics.common.inner, dita2xhtml.dita.map.xhtml.toc, org.dita.pdf2.fop.transform.fo2pdf.fop.init, dita2eclipsehelp.dita.out.map.eclipse.index, ditaot-preprocess2.preprocess2.maps, dita2eclipsehelp.build.eclipse.jar, ditaot-preprocess2.map-branch-filter, dita2normalize.markdown.map.init, dita2htmlhelp.compile.HTML.Help, dita.build.transform.topic2fo.index.init, dita2htmlhelp.dita.map.htmlhelp, html5.map, dita2html5, dita2html5.html5.map.init, ditaot-preprocess.mapref, dita2eclipsehelp.dita.out.map.eclipse.manifest.file, dita.build.transform.topic2fo.main, ditaot-preprocess.clean-map-check, dita2normalize.dita.map.hdita.toc, dita2eclipsehelp.dita.map.eclipse.genetrate.fragment, dita2eclipsehelp.dita.map.eclipse.fragment.language.country.init, dita.build.publish.map.pdf.init, ditaot-preprocess2.copy-image2, ditaot-preprocess.clean-temp, dita.build.dita2pdf2.init, dita2normalize.dita2markdown_gitbook, dita2eclipsehelp.dita.map.eclipse.manifest.file, dita2eclipsehelp.dita.out.map.eclipse.fragment.move.files, html5.copy-css-user, dita.eclipsehelp.init, dita2htmlhelp.org.dita.index.init, dita2hdita, dita2normalize.markdown.map, dita.build.transform.topic2fo.init, dita.out.map.xhtml.toc, ditaot-preprocess.copy-flag, dita2htmlhelp.htmlhelp.topics, dita2xhtml, dita2eclipsehelp.dita.index.eclipsehelp.init, org.dita.pdf2.axf.transform.fo2pdf.ah.hasoption, dita2eclipsehelp.dita.map.eclipse.generate.plugin, dita.build.preview.topic.pdf.init, ditaot-preprocess2.map-keyref, dita2htmlhelp.dita.map.htmlhelp.init, transform.fo2pdf.ah.hasoption, dita2eclipsehelp.dita.map.eclipse.plugin, ditaot-preprocess2.copy-files2, dita2pdf, ditaot-preprocess.conref, ditaot-preprocess2.topic-conref, dita.build.transform.topic2fo.i18n.no-filter, dita.build.copyCoreArtwork, dita2normalize.dita2markdown, dita2xhtml.copy-revflag, dita.build.transform.topic2pdf, dita2markdown_github, ditaot-preprocess.topic-fragment, ditaot-preprocess2.topic-conrefpush, dita.map.eclipse, dita2eclipsehelp.dita2eclipsehelp, ditaot-preprocess2.preprocess2.topics, dita2html5.html5.css, dita2eclipsehelp, dita2eclipsehelp.dita.map.eclipse, dita.build.topic2pdf2, dita2eclipsehelp.dita.map.eclipse.fragment.move.files, dita2html5.html5.copy-css-user, dita2normalize.dita.map.hdita.init, dita2htmlhelp.dita.map.htmlhelp.hhp, ditaot-preprocess2.map-profile, ditaot-preprocess.topicpull, dita2htmlhelp.dita.map.htmlhelp.hhk, ditaot-preprocess2.topic-profile-check, output-css-warn-message, dita2htmlhelp.dita.map.htmlhelp.hhc, dita2htmlhelp.htmlhelp.copy-image, dita2htmlhelp.use-init.envhhcdir, dita2html5.html5.image-metadata, copy-css-user, dita2htmlhelp, dita2eclipsehelp.dita.out.map.eclipse.plugin.properties, dita.build.map2pdf2, dita2html5.html5.topics.common, ditaot-preprocess2.topic-copy-to, dita2html5.dita2html5, org.dita.pdf2.axf.transform.fo2pdf.ah.init, ditaot-preprocess2.topic-chunk, dita2eclipsehelp.dita.eclipsehelp.init, ditaot-preprocess2.preprocess2.init, publish.map.pdf, dita2xhtml.dita.map.xhtml.init, , ditaot-preprocess2.topic-profile]
+Build sequence for target(s) `clean-temp' is [clean-temp]
+Complete build sequence is [clean-temp, dita2pdf2.init, dita.index.eclipsehelp.init, ditaot-preprocess.mapref-check, conref, transform.topic2pdf.init, preview.topic.pdf.init, copyCoreArtwork, transform.fo2pdf.xep.test-use, transform.fo2pdf.xep.init, transform.fo2pdf.fop.test-use, transform.fo2pdf.fop.init, transform.fo2pdf.ah.test-use, transform.fo2pdf.ah.init, transform.topic2fo.init, org.dita.index.init, org.dita.index, transform.topic2fo.main, transform.topic2fo.i18n.filter, transform.topic2fo.i18n.no-filter, transform.topic2fo.i18n, transform.topic2fo, transform.fo2pdf.xep, transform.fo2pdf.fop, transform.fo2pdf.ah, transform.fo2pdf, transform.topic2pdf, dita.build.preview.topic.pdf, ditaot-preprocess.maplink-check, markdown_github.init, init-properties, check-arg, log-arg, build-init, preprocess.init, ditaval-merge, gen-list, debug-filter, mapref-check, mapref, branch-filter, keyref, copy-to, conrefpush, profile-check, profile, topic-fragment, chunk-check, chunk, move-meta-entries, maplink-check, maplink, topicpull-check, topicpull, clean-map-check, clean-map, clean-preprocess, copy-image, copy-html, copy-flag-check, copy-flag, copy-files, preprocess, markdown.init, markdown.topics.common, markdown.topics.common.inner, markdown.topic, markdown.map.init, markdown.map.toc, markdown.map, dita2markdown, dita2normalize.dita2markdown_github, dita2normalize.markdown.topics.common, ditaot-init.check-arg, dita2dita, org.dita.pdf2.xep.transform.fo2pdf.xep, dita2htmlhelp.init, ditaot-preprocess.profile-check, dita2html5.html5.map.toc, html5.map.init, html5.map.toc, dita2html5.html5.map, ditaot-preprocess2.map-conrefpush, dita2eclipsehelp.dita.map.eclipse.plugin.init, dita.map.eclipse.plugin.init, dita.map.eclipse.plugin, ditaot-preprocess.debug-filter, dita.map.eclipse.fragment.move.files, dita2normalize.dita.out.map.hdita.toc, xhtml.init, xhtml.image-metadata, htmlhelp.topics, ditaot-init.build-init, dita2xhtml.copy-css-user, ditaot-preprocess.copy-to, ditaot-preprocess.keyref, ditaot-preprocess.copy-flag-check, ditaot-preprocess2.topic-keyref, transform.topic2fo.index.init, dita.build.transform.topic2fo.index, ditaot-preprocess2.topic-maplink, preprocess2.init, map-reader, map-mapref, map-branch-filter, map-keyref, map-conrefpush, map-conref, map-profile-check, map-profile, preprocess2.maps, topic-reader, topic-branch-filter, topic-keyref, topic-copy-to, topic-conrefpush, topic-conref, topic-profile-check, topic-profile, preprocess2.topic-fragment, topic-chunk, topic-move-meta-entries, topic-maplink, topic-topicpull, preprocess2.topics, map-clean-map, copy-image2, copy-files2, preprocess2, build_generaltargets.output-css-warn-message, ditaot-preprocess2.topic-reader, ditaot-preprocess.chunk, dita.topics.html.common, dita.build.transform.topic2fo.i18n.filter, org.dita.pdf2.axf.transform.fo2pdf.ah.nooption, ditaot-preprocess2.topic-branch-filter, build_generaltargets.xhtml.image-metadata, dita2normalize.dita.topics.hdita.common, dita.map.xhtml.init, dita.map.xhtml.toc, dita.map.xhtml, dita.map.eclipse.toc, dita.build.transform.topic2fo.i18n, org.dita.pdf2.axf.transform.fo2pdf.ah, html5.topic.init, org.dita.pdf2.xep.transform.fo2pdf.xep.test-use, dita2tbird-pdf.init, map2pdf2, topic2pdf2, dita2pdf2, dita2tbird-pdf.dita2tbird-pdf, ditaot-preprocess2.preprocess2.topic-fragment, markdown_gitbook.init, dita2eclipsehelp.dita.map.eclipse.fragment.language.init, ditaot-preprocess.preprocess.init, copy-revflag, ditaot-preprocess.clean-map, dita2xhtml.init, dita.build.dita2pdf2, hdita.init, ditaot-preprocess.clean-preprocess, dita2xhtml.dita.out.map.xhtml.toc, org.dita.pdf2.xep.transform.fo2pdf.xep.init, ditaot-preprocess2.preprocess2, org.dita.pdf2.axf.transform.fo2pdf.ah.test-use, ditaot-preprocess.maplink, ditaot-init.init-properties, ditaot-preprocess.preprocess, use-init.envhhcdir, use-init.hhcdir, htmlhelp.copy-image, copy-css, dita2htmlhelp.dita2htmlhelp, publish.map.pdf.init, dita2xhtml.dita.map.xhtml, copy-plugin-files, ditaot-preprocess2.map-clean-map, dita.build.dita2pdf, ditaot-preprocess.conrefpush, dita.map.eclipse.init, dita2eclipsehelp.dita.map.eclipse.fragment.error, ditaot-preprocess.branch-filter, dita.map.hdita.init, dita2eclipsehelp.copy-plugin-files, dita.build.transform.fo2pdf, html5.init, dita2eclipsehelp.dita.out.map.eclipse.plugin, build.eclipse.jar, org.dita.pdf2.fop.transform.fo2pdf.fop, dita.build.transform.topic2pdf.init, ditaot-preprocess2.map-mapref, dita.map.eclipse.fragment.language.init, ditaot-preprocess.gen-list, build_generaltargets.dita.topics.html.common, dita2htmlhelp.use-init.hhcdir, dita.build.publish.map.pdf, html5.topics.common.inner, dita2normalize.hdita.init, DOST.init, DOST.help, transform.fo2pdf.ah.nooption, dita.inner.topics.hdita.common, dita2htmlhelp.dita.htmlhelp.convertlang, ditaot-preprocess2.topic-topicpull, dita2eclipsehelp.dita.out.map.eclipse.toc, dita2normalize.markdown.init, html5.image-metadata, html5.topics.common, dita2html5.html5.topic, ditaot-preprocess.chunk-check, dita2normalize.markdown_gitbook.init, dita2htmlhelp.org.dita.index, build_generaltargets.dita.inner.topics.html.common, html5.topic, preprocess2-topic, ditaot-preprocess2.map-profile-check, dita.out.map.eclipse.plugin.properties, dita2eclipsehelp.dita.map.eclipse.index, ditaot-preprocess.profile, dita2normalize.markdown.topics.common.inner, dita.map.eclipse.fragment.language.country.init, dita2eclipsehelp.dita.map.eclipse.plugin.properties, ditaot-preprocess.copy-files, dita.inner.topics.html.common, build_generaltargets.xhtml.topics, org.dita.pdf2.fop.transform.fo2pdf.fop.test-use, dita2htmlhelp.dita2htmlhelp.init, dita.map.htmlhelp.init, ditaot-preprocess2.map-conref, dita.map.eclipse.index, dita.map.eclipse.plugin.properties, dita.map.eclipse.manifest.file, dita.out.map.eclipse.manifest.file, dita.out.map.eclipse.toc, dita.out.map.eclipse.index, dita.out.map.eclipse.plugin, dita.out.map.eclipse.fragment.move.files, dita.map.eclipse.genetrate.fragment, ditaot-preprocess.topicpull-check, init, help, ditaot-preprocess2.preprocess2-topic, dita.map.eclipse.fragment.error, ditaot-preprocess2.map-reader, ditaot-init.log-arg, dita2xhtml.copy-css, dita2normalize.markdown.map.toc, ditaot-preprocess.move-meta-entries, dita2markdown_gitbook, html5.css, dita.build.transform.topic2fo, preview.topic.pdf, transform.topic2fo.index, dita2eclipsehelp.dita.map.eclipse.init, xhtml.topics, dita2xhtml.dita2xhtml, ditaot-preprocess2.topic-move-meta-entries, dita2normalize.dita.inner.topics.hdita.common, dita2normalize.markdown_github.init, dita2eclipsehelp.dita.map.eclipse.toc, dita2normalize.dita2dita, ditaot-preprocess.copy-html, dita2normalize.markdown.topic, dita2html5.html5.topic.init, dita.topics.hdita.common, dita.map.hdita.toc, dita.out.map.hdita.toc, dita2normalize.dita2hdita, dita.map.eclipse.generate.plugin, dita2xhtml.dita2xhtml.init, ditaot-preprocess.copy-image, ditaot-preprocess.ditaval-merge, dita.map.htmlhelp.hhp, dita.map.htmlhelp.hhc, dita.map.htmlhelp.hhk, dita.htmlhelp.convertlang, compile.HTML.Help, dita.map.htmlhelp, dita2tbird-pdf.dita2tbird-pdf.init, dita2html5.html5.init, build_generaltargets.xhtml.init, dita2html5.html5.topics.common.inner, dita2xhtml.dita.map.xhtml.toc, org.dita.pdf2.fop.transform.fo2pdf.fop.init, dita2eclipsehelp.dita.out.map.eclipse.index, ditaot-preprocess2.preprocess2.maps, dita2eclipsehelp.build.eclipse.jar, ditaot-preprocess2.map-branch-filter, dita2normalize.markdown.map.init, dita2htmlhelp.compile.HTML.Help, dita.build.transform.topic2fo.index.init, dita2htmlhelp.dita.map.htmlhelp, html5.map, dita2html5, dita2html5.html5.map.init, ditaot-preprocess.mapref, dita2eclipsehelp.dita.out.map.eclipse.manifest.file, dita.build.transform.topic2fo.main, ditaot-preprocess.clean-map-check, dita2normalize.dita.map.hdita.toc, dita2eclipsehelp.dita.map.eclipse.genetrate.fragment, dita2eclipsehelp.dita.map.eclipse.fragment.language.country.init, dita.build.publish.map.pdf.init, ditaot-preprocess2.copy-image2, ditaot-preprocess.clean-temp, dita.build.dita2pdf2.init, dita2normalize.dita2markdown_gitbook, dita2eclipsehelp.dita.map.eclipse.manifest.file, dita2eclipsehelp.dita.out.map.eclipse.fragment.move.files, html5.copy-css-user, dita.eclipsehelp.init, dita2htmlhelp.org.dita.index.init, dita2hdita, dita2normalize.markdown.map, dita.build.transform.topic2fo.init, dita.out.map.xhtml.toc, ditaot-preprocess.copy-flag, dita2htmlhelp.htmlhelp.topics, dita2xhtml, dita2eclipsehelp.dita.index.eclipsehelp.init, org.dita.pdf2.axf.transform.fo2pdf.ah.hasoption, dita2eclipsehelp.dita.map.eclipse.generate.plugin, dita.build.preview.topic.pdf.init, ditaot-preprocess2.map-keyref, dita2htmlhelp.dita.map.htmlhelp.init, transform.fo2pdf.ah.hasoption, dita2eclipsehelp.dita.map.eclipse.plugin, ditaot-preprocess2.copy-files2, dita2pdf, ditaot-preprocess.conref, ditaot-preprocess2.topic-conref, dita.build.transform.topic2fo.i18n.no-filter, dita.build.copyCoreArtwork, dita2normalize.dita2markdown, dita2xhtml.copy-revflag, dita.build.transform.topic2pdf, dita2markdown_github, ditaot-preprocess.topic-fragment, ditaot-preprocess2.topic-conrefpush, dita.map.eclipse, dita2eclipsehelp.dita2eclipsehelp, ditaot-preprocess2.preprocess2.topics, dita2html5.html5.css, dita2eclipsehelp, dita2eclipsehelp.dita.map.eclipse, dita.build.topic2pdf2, dita2eclipsehelp.dita.map.eclipse.fragment.move.files, dita2html5.html5.copy-css-user, dita2normalize.dita.map.hdita.init, dita2htmlhelp.dita.map.htmlhelp.hhp, ditaot-preprocess2.map-profile, ditaot-preprocess.topicpull, dita2htmlhelp.dita.map.htmlhelp.hhk, ditaot-preprocess2.topic-profile-check, output-css-warn-message, dita2htmlhelp.dita.map.htmlhelp.hhc, dita2htmlhelp.htmlhelp.copy-image, dita2htmlhelp.use-init.envhhcdir, dita2html5.html5.image-metadata, copy-css-user, dita2htmlhelp, dita2eclipsehelp.dita.out.map.eclipse.plugin.properties, dita.build.map2pdf2, dita2html5.html5.topics.common, ditaot-preprocess2.topic-copy-to, dita2html5.dita2html5, org.dita.pdf2.axf.transform.fo2pdf.ah.init, ditaot-preprocess2.topic-chunk, dita2eclipsehelp.dita.eclipsehelp.init, ditaot-preprocess2.preprocess2.init, publish.map.pdf, dita2xhtml.dita.map.xhtml.init, dita2tbird-pdf, , ditaot-preprocess2.topic-profile]
+  [antcall] Entering C:\dita-ot-3.7.3\build.xml...
+Build sequence for target(s) `dita2tbird-pdf', `clean-temp' is [dita2tbird-pdf.init, dita2pdf2.init, init-properties, check-arg, log-arg, build-init, preprocess2.init, ditaval-merge, map-reader, map-mapref, map-branch-filter, map-keyref, map-conrefpush, map-conref, map-profile-check, map-profile, preprocess2.maps, topic-reader, topic-branch-filter, topic-keyref, topic-copy-to, topic-conrefpush, topic-conref, topic-profile-check, topic-profile, preprocess2.topic-fragment, topic-chunk, topic-move-meta-entries, topic-maplink, topic-topicpull, preprocess2.topics, map-clean-map, clean-preprocess, copy-image2, copy-html, copy-flag-check, copy-flag, copy-files2, preprocess2, map2pdf2, topic2pdf2, dita2pdf2, dita2tbird-pdf, clean-temp]
+Complete build sequence is [dita2tbird-pdf.init, dita2pdf2.init, init-properties, check-arg, log-arg, build-init, preprocess2.init, ditaval-merge, map-reader, map-mapref, map-branch-filter, map-keyref, map-conrefpush, map-conref, map-profile-check, map-profile, preprocess2.maps, topic-reader, topic-branch-filter, topic-keyref, topic-copy-to, topic-conrefpush, topic-conref, topic-profile-check, topic-profile, preprocess2.topic-fragment, topic-chunk, topic-move-meta-entries, topic-maplink, topic-topicpull, preprocess2.topics, map-clean-map, clean-preprocess, copy-image2, copy-html, copy-flag-check, copy-flag, copy-files2, preprocess2, map2pdf2, topic2pdf2, dita2pdf2, dita2tbird-pdf, clean-temp, dita.index.eclipsehelp.init, ditaot-preprocess.mapref-check, conref, transform.topic2pdf.init, preview.topic.pdf.init, copyCoreArtwork, transform.fo2pdf.xep.test-use, transform.fo2pdf.xep.init, transform.fo2pdf.fop.test-use, transform.fo2pdf.fop.init, transform.fo2pdf.ah.test-use, transform.fo2pdf.ah.init, transform.topic2fo.init, org.dita.index.init, org.dita.index, transform.topic2fo.main, transform.topic2fo.i18n.filter, transform.topic2fo.i18n.no-filter, transform.topic2fo.i18n, transform.topic2fo, transform.fo2pdf.xep, transform.fo2pdf.fop, transform.fo2pdf.ah, transform.fo2pdf, transform.topic2pdf, dita.build.preview.topic.pdf, ditaot-preprocess.maplink-check, markdown_github.init, preprocess.init, gen-list, debug-filter, mapref-check, mapref, branch-filter, keyref, copy-to, conrefpush, profile-check, profile, topic-fragment, chunk-check, chunk, move-meta-entries, maplink-check, maplink, topicpull-check, topicpull, clean-map-check, clean-map, copy-image, copy-files, preprocess, markdown.init, markdown.topics.common, markdown.topics.common.inner, markdown.topic, markdown.map.init, markdown.map.toc, markdown.map, dita2markdown, dita2normalize.dita2markdown_github, dita2normalize.markdown.topics.common, ditaot-init.check-arg, dita2dita, org.dita.pdf2.xep.transform.fo2pdf.xep, dita2htmlhelp.init, ditaot-preprocess.profile-check, dita2html5.html5.map.toc, html5.map.init, html5.map.toc, dita2html5.html5.map, ditaot-preprocess2.map-conrefpush, dita2eclipsehelp.dita.map.eclipse.plugin.init, dita.map.eclipse.plugin.init, dita.map.eclipse.plugin, ditaot-preprocess.debug-filter, dita.map.eclipse.fragment.move.files, dita2normalize.dita.out.map.hdita.toc, xhtml.init, xhtml.image-metadata, htmlhelp.topics, ditaot-init.build-init, dita2xhtml.copy-css-user, ditaot-preprocess.copy-to, ditaot-preprocess.keyref, ditaot-preprocess.copy-flag-check, ditaot-preprocess2.topic-keyref, transform.topic2fo.index.init, dita.build.transform.topic2fo.index, ditaot-preprocess2.topic-maplink, build_generaltargets.output-css-warn-message, ditaot-preprocess2.topic-reader, ditaot-preprocess.chunk, dita.topics.html.common, dita.build.transform.topic2fo.i18n.filter, org.dita.pdf2.axf.transform.fo2pdf.ah.nooption, ditaot-preprocess2.topic-branch-filter, build_generaltargets.xhtml.image-metadata, dita2normalize.dita.topics.hdita.common, dita.map.xhtml.init, dita.map.xhtml.toc, dita.map.xhtml, dita.map.eclipse.toc, dita.build.transform.topic2fo.i18n, org.dita.pdf2.axf.transform.fo2pdf.ah, html5.topic.init, org.dita.pdf2.xep.transform.fo2pdf.xep.test-use, dita2tbird-pdf.dita2tbird-pdf, ditaot-preprocess2.preprocess2.topic-fragment, markdown_gitbook.init, dita2eclipsehelp.dita.map.eclipse.fragment.language.init, ditaot-preprocess.preprocess.init, copy-revflag, ditaot-preprocess.clean-map, dita2xhtml.init, dita.build.dita2pdf2, hdita.init, ditaot-preprocess.clean-preprocess, dita2xhtml.dita.out.map.xhtml.toc, org.dita.pdf2.xep.transform.fo2pdf.xep.init, ditaot-preprocess2.preprocess2, org.dita.pdf2.axf.transform.fo2pdf.ah.test-use, ditaot-preprocess.maplink, ditaot-init.init-properties, ditaot-preprocess.preprocess, use-init.envhhcdir, use-init.hhcdir, htmlhelp.copy-image, copy-css, dita2htmlhelp.dita2htmlhelp, publish.map.pdf.init, dita2xhtml.dita.map.xhtml, copy-plugin-files, ditaot-preprocess2.map-clean-map, dita.build.dita2pdf, ditaot-preprocess.conrefpush, dita.map.eclipse.init, dita2eclipsehelp.dita.map.eclipse.fragment.error, ditaot-preprocess.branch-filter, dita.map.hdita.init, dita2eclipsehelp.copy-plugin-files, dita.build.transform.fo2pdf, html5.init, dita2eclipsehelp.dita.out.map.eclipse.plugin, build.eclipse.jar, org.dita.pdf2.fop.transform.fo2pdf.fop, dita.build.transform.topic2pdf.init, ditaot-preprocess2.map-mapref, dita.map.eclipse.fragment.language.init, ditaot-preprocess.gen-list, build_generaltargets.dita.topics.html.common, dita2htmlhelp.use-init.hhcdir, dita.build.publish.map.pdf, html5.topics.common.inner, dita2normalize.hdita.init, DOST.init, DOST.help, transform.fo2pdf.ah.nooption, dita.inner.topics.hdita.common, dita2htmlhelp.dita.htmlhelp.convertlang, ditaot-preprocess2.topic-topicpull, dita2eclipsehelp.dita.out.map.eclipse.toc, dita2normalize.markdown.init, html5.image-metadata, html5.topics.common, dita2html5.html5.topic, ditaot-preprocess.chunk-check, dita2normalize.markdown_gitbook.init, dita2htmlhelp.org.dita.index, build_generaltargets.dita.inner.topics.html.common, html5.topic, preprocess2-topic, ditaot-preprocess2.map-profile-check, dita.out.map.eclipse.plugin.properties, dita2eclipsehelp.dita.map.eclipse.index, ditaot-preprocess.profile, dita2normalize.markdown.topics.common.inner, dita.map.eclipse.fragment.language.country.init, dita2eclipsehelp.dita.map.eclipse.plugin.properties, ditaot-preprocess.copy-files, dita.inner.topics.html.common, build_generaltargets.xhtml.topics, org.dita.pdf2.fop.transform.fo2pdf.fop.test-use, dita2htmlhelp.dita2htmlhelp.init, dita.map.htmlhelp.init, ditaot-preprocess2.map-conref, dita.map.eclipse.index, dita.map.eclipse.plugin.properties, dita.map.eclipse.manifest.file, dita.out.map.eclipse.manifest.file, dita.out.map.eclipse.toc, dita.out.map.eclipse.index, dita.out.map.eclipse.plugin, dita.out.map.eclipse.fragment.move.files, dita.map.eclipse.genetrate.fragment, ditaot-preprocess.topicpull-check, init, help, ditaot-preprocess2.preprocess2-topic, dita.map.eclipse.fragment.error, ditaot-preprocess2.map-reader, ditaot-init.log-arg, dita2xhtml.copy-css, dita2normalize.markdown.map.toc, ditaot-preprocess.move-meta-entries, dita2markdown_gitbook, html5.css, dita.build.transform.topic2fo, preview.topic.pdf, transform.topic2fo.index, dita2eclipsehelp.dita.map.eclipse.init, xhtml.topics, dita2xhtml.dita2xhtml, ditaot-preprocess2.topic-move-meta-entries, dita2normalize.dita.inner.topics.hdita.common, dita2normalize.markdown_github.init, dita2eclipsehelp.dita.map.eclipse.toc, dita2normalize.dita2dita, ditaot-preprocess.copy-html, dita2normalize.markdown.topic, dita2html5.html5.topic.init, dita.topics.hdita.common, dita.map.hdita.toc, dita.out.map.hdita.toc, dita2normalize.dita2hdita, dita.map.eclipse.generate.plugin, dita2xhtml.dita2xhtml.init, ditaot-preprocess.copy-image, ditaot-preprocess.ditaval-merge, dita.map.htmlhelp.hhp, dita.map.htmlhelp.hhc, dita.map.htmlhelp.hhk, dita.htmlhelp.convertlang, compile.HTML.Help, dita.map.htmlhelp, dita2tbird-pdf.dita2tbird-pdf.init, dita2html5.html5.init, build_generaltargets.xhtml.init, dita2html5.html5.topics.common.inner, dita2xhtml.dita.map.xhtml.toc, org.dita.pdf2.fop.transform.fo2pdf.fop.init, dita2eclipsehelp.dita.out.map.eclipse.index, ditaot-preprocess2.preprocess2.maps, dita2eclipsehelp.build.eclipse.jar, ditaot-preprocess2.map-branch-filter, dita2normalize.markdown.map.init, dita2htmlhelp.compile.HTML.Help, dita.build.transform.topic2fo.index.init, dita2htmlhelp.dita.map.htmlhelp, html5.map, dita2html5, dita2html5.html5.map.init, ditaot-preprocess.mapref, dita2eclipsehelp.dita.out.map.eclipse.manifest.file, dita.build.transform.topic2fo.main, ditaot-preprocess.clean-map-check, dita2normalize.dita.map.hdita.toc, dita2eclipsehelp.dita.map.eclipse.genetrate.fragment, dita2eclipsehelp.dita.map.eclipse.fragment.language.country.init, dita.build.publish.map.pdf.init, ditaot-preprocess2.copy-image2, ditaot-preprocess.clean-temp, dita.build.dita2pdf2.init, dita2normalize.dita2markdown_gitbook, dita2eclipsehelp.dita.map.eclipse.manifest.file, dita2eclipsehelp.dita.out.map.eclipse.fragment.move.files, html5.copy-css-user, dita.eclipsehelp.init, dita2htmlhelp.org.dita.index.init, dita2hdita, dita2normalize.markdown.map, dita.build.transform.topic2fo.init, dita.out.map.xhtml.toc, ditaot-preprocess.copy-flag, dita2htmlhelp.htmlhelp.topics, dita2xhtml, dita2eclipsehelp.dita.index.eclipsehelp.init, org.dita.pdf2.axf.transform.fo2pdf.ah.hasoption, dita2eclipsehelp.dita.map.eclipse.generate.plugin, dita.build.preview.topic.pdf.init, ditaot-preprocess2.map-keyref, dita2htmlhelp.dita.map.htmlhelp.init, transform.fo2pdf.ah.hasoption, dita2eclipsehelp.dita.map.eclipse.plugin, ditaot-preprocess2.copy-files2, dita2pdf, ditaot-preprocess.conref, ditaot-preprocess2.topic-conref, dita.build.transform.topic2fo.i18n.no-filter, dita.build.copyCoreArtwork, dita2normalize.dita2markdown, dita2xhtml.copy-revflag, dita.build.transform.topic2pdf, dita2markdown_github, ditaot-preprocess.topic-fragment, ditaot-preprocess2.topic-conrefpush, dita.map.eclipse, dita2eclipsehelp.dita2eclipsehelp, ditaot-preprocess2.preprocess2.topics, dita2html5.html5.css, dita2eclipsehelp, dita2eclipsehelp.dita.map.eclipse, dita.build.topic2pdf2, dita2eclipsehelp.dita.map.eclipse.fragment.move.files, dita2html5.html5.copy-css-user, dita2normalize.dita.map.hdita.init, dita2htmlhelp.dita.map.htmlhelp.hhp, ditaot-preprocess2.map-profile, ditaot-preprocess.topicpull, dita2htmlhelp.dita.map.htmlhelp.hhk, ditaot-preprocess2.topic-profile-check, output-css-warn-message, dita2htmlhelp.dita.map.htmlhelp.hhc, dita2htmlhelp.htmlhelp.copy-image, dita2htmlhelp.use-init.envhhcdir, dita2html5.html5.image-metadata, copy-css-user, dita2htmlhelp, dita2eclipsehelp.dita.out.map.eclipse.plugin.properties, dita.build.map2pdf2, dita2html5.html5.topics.common, ditaot-preprocess2.topic-copy-to, dita2html5.dita2html5, org.dita.pdf2.axf.transform.fo2pdf.ah.init, ditaot-preprocess2.topic-chunk, dita2eclipsehelp.dita.eclipsehelp.init, ditaot-preprocess2.preprocess2.init, publish.map.pdf, dita2xhtml.dita.map.xhtml.init, , ditaot-preprocess2.topic-profile]
+
+dita2tbird-pdf.init:
+
+dita2pdf2.init:
+Property "args.xsl.pdf" has not been set
+Property "args.xsl.pdf" has not been set
+Property "org.dita.pdf2.chunk.enabled" has not been set
+Override ignored for property "args.rellinks"
+
+init-properties:
+Override ignored for property "dita.temp.dir"
+Override ignored for property "output.dir"
+Property "temp.output.dir.name" has not been set
+[init-project] Initializing project
+ [property] Loading Environment env.
+
+check-arg:
+Property "args.xsl" has not been set
+Property "args.xsl" has not been set
+Property "args.outext" has not been set
+Property "args.outext" has not been set
+Property "args.outext" has not been set
+Property "args.outext" has not been set
+    [mkdir] Skipping C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\out\tbird-pdf because it already exists.
+    [mkdir] Created dir: C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp
+Property "args.hide.parent.link" has not been set
+
+log-arg:
+Property "org.xml.sax.driver" has not been set
+[available] Unable to load class org.apache.crimson.parser.XMLReaderImpl
+[available] Unable to load class net.sf.saxon.StyleSheet
+     [echo] *****************************************************************
+     [echo] * basedir = C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird
+     [echo] * dita.dir = C:\dita-ot-3.7.3
+     [echo] * transtype = tbird-pdf
+     [echo] * tempdir = C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird/temp/tbird-pdf/oxygen_dita_temp
+     [echo] * outputdir = C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird/out/tbird-pdf
+     [echo] * clean.temp = true
+     [echo] * DITA-OT version = 3.7.3
+     [echo] * XML parser = Xerces
+     [echo] * XSLT processor = Saxon
+     [echo] * collator = ICU
+     [echo] *****************************************************************
+     [echo] #Ant properties
+     [echo] #Tue Oct 18 10:44:43 PDT 2022
+     [echo] dita.plugin.org.dita.base.dir=C\:\\dita-ot-3.7.3\\plugins\\org.dita.base
+     [echo] preprocess.chunk.skip=true
+     [echo] dita.temp.dir=C\:\\Desktop - Personal\\Training\\Comtech_Publishing_DITA\\dita-demo-content-collection\\Thunderbird/temp/tbird-pdf/oxygen_dita_temp
+     [echo] dita.plugin.com.tbird.pdf.dir=C\:\\dita-ot-3.7.3\\plugins\\com.tbird.pdf
+     [echo] args.grammar.cache=yes
+     [echo] dita.plugin.org.oasis-open.xdita.v0_2_2.dir=C\:\\dita-ot-3.7.3\\plugins\\org.oasis-open.xdita.v0_2_2
+     [echo] dita.dir=C\:\\dita-ot-3.7.3
+     [echo] dita.plugin.org.dita.pdf2.axf.dir=C\:\\dita-ot-3.7.3\\plugins\\org.dita.pdf2.axf
+     [echo] args.figurelink.style=TITLE
+     [echo] preprocess.copy-flag.skip=true
+     [echo] dita.plugin.org.oasis-open.dita.v1_3.dir=C\:\\dita-ot-3.7.3\\plugins\\org.oasis-open.dita.v1_3
+     [echo] dita.plugin.org.lwdita.dir=C\:\\dita-ot-3.7.3\\plugins\\org.lwdita
+     [echo] dita.plugin.org.oasis-open.dita.v2_0.dir=C\:\\dita-ot-3.7.3\\plugins\\org.oasis-open.dita.v2_0
+     [echo] dita.plugin.org.dita.htmlhelp.dir=C\:\\dita-ot-3.7.3\\plugins\\org.dita.htmlhelp
+     [echo] dita.output.dir=C\:\\Desktop - Personal\\Training\\Comtech_Publishing_DITA\\dita-demo-content-collection\\Thunderbird/out/tbird-pdf
+     [echo] args.rellinks=noparent
+     [echo] dita.plugin.org.dita.eclipsehelp.dir=C\:\\dita-ot-3.7.3\\plugins\\org.dita.eclipsehelp
+     [echo] dita.plugin.org.dita.normalize.dir=C\:\\dita-ot-3.7.3\\plugins\\org.dita.normalize
+     [echo] dita.plugin.org.dita.xhtml.dir=C\:\\dita-ot-3.7.3\\plugins\\org.dita.xhtml
+     [echo] dita.plugin.org.dita.pdf2.xep.dir=C\:\\dita-ot-3.7.3\\plugins\\org.dita.pdf2.xep
+     [echo] dita.plugin.org.dita.specialization.dita11.dir=C\:\\dita-ot-3.7.3\\plugins\\org.dita.specialization.dita11
+     [echo] dita.plugin.org.oasis-open.dita.v1_2.dir=C\:\\dita-ot-3.7.3\\plugins\\org.oasis-open.dita.v1_2
+     [echo] dita.plugin.org.dita.pdf2.fop.dir=C\:\\dita-ot-3.7.3\\plugins\\org.dita.pdf2.fop
+     [echo] args.input=C\:\\Desktop - Personal\\Training\\Comtech_Publishing_DITA\\dita-demo-content-collection\\Thunderbird\\proposal_template.ditamap
+     [echo] args.xml.systemid.set=yes
+     [echo] dita.plugin.org.dita.pdf2.dir=C\:\\dita-ot-3.7.3\\plugins\\org.dita.pdf2
+     [echo] dita.plugin.org.dita.html5.dir=C\:\\dita-ot-3.7.3\\plugins\\org.dita.html5
+     [echo] dita.plugin.org.oasis-open.dita.techcomm.v2_0.dir=C\:\\dita-ot-3.7.3\\plugins\\org.oasis-open.dita.techcomm.v2_0
+     [echo] preprocess.copy-image.skip=true
+     [echo] dita.plugin.org.dita.index.dir=C\:\\dita-ot-3.7.3\\plugins\\org.dita.index
+     [echo] *****************************************************************
+
+build-init:
+
+preprocess2.init:
+Override ignored for property "clean-preprocess.use-result-filename"
+[pathconvert] Set property dita.map.filename.root = proposal_template
+     [echo] *****************************************************************
+     [echo] * input = C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\proposal_template.ditamap
+Property "args.resources" has not been set
+     [echo] * resources = ${args.resources}
+     [echo] *****************************************************************
+
+ditaval-merge:
+
+map-reader:
+Job not found from Ant project reference
+[map-reader] Using Xerces grammar pool for DTD and schema caching.
+[map-reader] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/proposal_template.ditamap to file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/24450557882318648508167cea6130a89c6786f3.ditamap
+[map-reader] file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/proposal_template.ditamap:12:22: [DOTJ045I][INFO] The key "r_productname_variables" is defined more than once in the same map file.
+[map-reader] file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/proposal_template.ditamap:13:105: [DOTJ045I][INFO] The key "r_image_warehouse" is defined more than once in the same map file.
+[map-reader] Serializing job specification
+[map-reader] MapReaderModule processing took 409 ms
+Scanning for 24450557882318648508167cea6130a89c6786f3.ditamap
+Found temporary directory file C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\24450557882318648508167cea6130a89c6786f3.ditamap
+[pathconvert] Set property inputMapPath = file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/24450557882318648508167cea6130a89c6786f3.ditamap
+
+map-mapref:
+Property "dita.preprocess.reloadstylesheet" has not been set
+Property "user.input.file" has not been set
+   [mapref] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/24450557882318648508167cea6130a89c6786f3.ditamap
+   [mapref] MaprefModule processing took 532 ms
+
+map-branch-filter:
+[branch-filter] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/24450557882318648508167cea6130a89c6786f3.ditamap
+[branch-filter] Reading file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/24450557882318648508167cea6130a89c6786f3.ditamap
+[branch-filter] Split branches and generate copy-to
+[branch-filter] Filter map
+[branch-filter] Loading subject schemes
+[branch-filter] Rewrite duplicate topic references
+[branch-filter] Writing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/24450557882318648508167cea6130a89c6786f3.ditamap
+[branch-filter] MapBranchFilterModule processing took 14 ms
+
+map-keyref:
+   [keyref] KeyrefModule processing took 0 ms
+   [mapref] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/24450557882318648508167cea6130a89c6786f3.ditamap
+   [mapref] MaprefModule processing took 120 ms
+
+map-conrefpush:
+[conref-push] ConrefPushModule processing took 0 ms
+
+map-conref:
+Property "dita.preprocess.reloadstylesheet" has not been set
+  [makeurl] Setting exportfile.url to URL file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/export.xml
+   [conref] XsltModule processing took 0 ms
+
+map-profile-check:
+
+map-profile:
+  [profile] Processing C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\24450557882318648508167cea6130a89c6786f3.ditamap
+  [profile] FilterModule processing took 12 ms
+
+preprocess2.maps:
+
+topic-reader:
+[topic-reader] Using Xerces grammar pool for DTD and schema caching.
+[topic-reader] Reading file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/24450557882318648508167cea6130a89c6786f3.ditamap
+[topic-reader] Loading subject schemes
+[topic-reader] Reading file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/24450557882318648508167cea6130a89c6786f3.ditamap
+[topic-reader] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/topics/c_architecture_combined.dita to file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/cfe8aa6996a2752bb9b41ea724249a74ae71d39f.dita
+[topic-reader] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/topics/c_architecture_overview.dita to file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/69551f081fb683504a1146f3b58b5242f69949a5.dita
+[topic-reader] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/topics/proposal_standard_responses.dita to file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/67769e35bb65d33adfb90daa03ded7d4c00df585.dita
+[topic-reader] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/topics/c_ease_of_management.dita to file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/4ca07de3af4f074c29f5e61036a35d7273f025c7.dita
+[topic-reader] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/topics/c_efficient_resources.dita to file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/e667780d1cca5956710af56fa1fd54232a9d11a4.dita
+[topic-reader] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/topics/c_product_about.dita to file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/8d17b455d2e7b4ac77b1e2fe557ba01d545693a0.dita
+[topic-reader] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/topics/c_security.dita to file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/afb31f1d2a40c0c1fcbcca56e6f0526557cc3f4c.dita
+[topic-reader] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/topics/r_image_warehouse.dita to file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/063fd3d1267651a67923000b50d041b66a67999a.dita
+[topic-reader] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/topics/r_image_warehouse_2.dita to file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/dd2923773a80ce4cf2680767abb73e56df4cd817.dita
+[topic-reader] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/topics/r_productname_variables.dita to file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/7f98112a90acb2fa0b67522afac6178611d722be.dita
+[topic-reader] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/topics/r_productname_variables_2.dita to file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/6de8c095ee6a8c038234ac59e3499b073d24ef68.dita
+[topic-reader] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/topics/r_supported_platforms.dita to file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/d21a8980c2952edd825234d04cc6a47531b5833a.dita
+[topic-reader] Serializing job specification
+[topic-reader] TopicReaderModule processing took 378 ms
+
+topic-branch-filter:
+[branch-filter] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/24450557882318648508167cea6130a89c6786f3.ditamap
+[branch-filter] Reading file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/24450557882318648508167cea6130a89c6786f3.ditamap
+[branch-filter] Loading subject schemes
+[branch-filter] Filter topics and generate copies
+[branch-filter] Filter existing topics
+[branch-filter] Writing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/24450557882318648508167cea6130a89c6786f3.ditamap
+[branch-filter] TopicBranchFilterModule processing took 9 ms
+
+topic-keyref:
+   [keyref] Reading file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/24450557882318648508167cea6130a89c6786f3.ditamap
+   [keyref] Using root scope
+   [keyref] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/cfe8aa6996a2752bb9b41ea724249a74ae71d39f.dita
+   [keyref] Using root scope
+   [keyref] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/063fd3d1267651a67923000b50d041b66a67999a.dita
+   [keyref] Using root scope
+   [keyref] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/69551f081fb683504a1146f3b58b5242f69949a5.dita
+   [keyref] Using root scope
+   [keyref] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/67769e35bb65d33adfb90daa03ded7d4c00df585.dita
+   [keyref] Using root scope
+   [keyref] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/dd2923773a80ce4cf2680767abb73e56df4cd817.dita
+   [keyref] KeyrefModule processing took 66 ms
+
+topic-copy-to:
+  [copy-to] CopyToModule processing took 9 ms
+
+topic-conrefpush:
+[conref-push] ConrefPushModule processing took 0 ms
+
+topic-conref:
+Property "dita.preprocess.reloadstylesheet" has not been set
+Override ignored for property "dita.preprocess.reloadstylesheet.conref"
+   [conref] Transforming into C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp
+   [conref] Loading stylesheet file:/C:/dita-ot-3.7.3/plugins/org.dita.base/xsl/preprocess/conref.xsl
+   [conref] Loading stylesheet file:/C:/dita-ot-3.7.3/plugins/org.dita.base/xsl/preprocess/conref.xsl
+   [conref] Set parameter EXPORTFILE to 'file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/export.xml'
+   [conref] Set parameter TRANSTYPE to 'tbird-pdf'
+   [conref] Set parameter file-being-processed to 'dd2923773a80ce4cf2680767abb73e56df4cd817.dita'
+   [conref] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/dd2923773a80ce4cf2680767abb73e56df4cd817.dita
+   [conref] Set parameter EXPORTFILE to 'file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/export.xml'
+   [conref] Set parameter TRANSTYPE to 'tbird-pdf'
+   [conref] Set parameter file-being-processed to '8d17b455d2e7b4ac77b1e2fe557ba01d545693a0.dita'
+   [conref] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/8d17b455d2e7b4ac77b1e2fe557ba01d545693a0.dita
+   [conref] Set parameter EXPORTFILE to 'file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/export.xml'
+   [conref] Set parameter TRANSTYPE to 'tbird-pdf'
+   [conref] Set parameter file-being-processed to '4ca07de3af4f074c29f5e61036a35d7273f025c7.dita'
+   [conref] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/4ca07de3af4f074c29f5e61036a35d7273f025c7.dita
+   [conref] Set parameter EXPORTFILE to 'file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/export.xml'
+   [conref] Set parameter TRANSTYPE to 'tbird-pdf'
+   [conref] Set parameter file-being-processed to 'e667780d1cca5956710af56fa1fd54232a9d11a4.dita'
+   [conref] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/e667780d1cca5956710af56fa1fd54232a9d11a4.dita
+   [conref] Set parameter EXPORTFILE to 'file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/export.xml'
+   [conref] Set parameter TRANSTYPE to 'tbird-pdf'
+   [conref] Set parameter file-being-processed to '67769e35bb65d33adfb90daa03ded7d4c00df585.dita'
+   [conref] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/67769e35bb65d33adfb90daa03ded7d4c00df585.dita
+   [conref] Set parameter EXPORTFILE to 'file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/export.xml'
+   [conref] Set parameter TRANSTYPE to 'tbird-pdf'
+   [conref] Set parameter file-being-processed to 'cfe8aa6996a2752bb9b41ea724249a74ae71d39f.dita'
+   [conref] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/cfe8aa6996a2752bb9b41ea724249a74ae71d39f.dita
+   [conref] Set parameter EXPORTFILE to 'file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/export.xml'
+   [conref] Set parameter TRANSTYPE to 'tbird-pdf'
+   [conref] Set parameter file-being-processed to '69551f081fb683504a1146f3b58b5242f69949a5.dita'
+   [conref] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/69551f081fb683504a1146f3b58b5242f69949a5.dita
+   [conref] Set parameter EXPORTFILE to 'file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/export.xml'
+   [conref] Set parameter TRANSTYPE to 'tbird-pdf'
+   [conref] Set parameter file-being-processed to 'd21a8980c2952edd825234d04cc6a47531b5833a.dita'
+   [conref] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/d21a8980c2952edd825234d04cc6a47531b5833a.dita
+   [conref] Set parameter EXPORTFILE to 'file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/export.xml'
+   [conref] Set parameter TRANSTYPE to 'tbird-pdf'
+   [conref] Set parameter file-being-processed to '063fd3d1267651a67923000b50d041b66a67999a.dita'
+   [conref] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/063fd3d1267651a67923000b50d041b66a67999a.dita
+   [conref] Set parameter EXPORTFILE to 'file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/export.xml'
+   [conref] Set parameter TRANSTYPE to 'tbird-pdf'
+   [conref] Set parameter file-being-processed to 'afb31f1d2a40c0c1fcbcca56e6f0526557cc3f4c.dita'
+   [conref] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/afb31f1d2a40c0c1fcbcca56e6f0526557cc3f4c.dita
+   [conref] XsltModule processing took 362 ms
+
+topic-profile-check:
+
+topic-profile:
+Skipped because property 'preprocess.topic-profile.skip' set.
+
+preprocess2.topic-fragment:
+[preprocess2.topic-fragment] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/24450557882318648508167cea6130a89c6786f3.ditamap
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.TopicFragmentFilter
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.NormalizeTableFilter
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.NormalizeSimpleTableFilter
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.CoderefResolver
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.NormalizeCodeblock
+[preprocess2.topic-fragment] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/dd2923773a80ce4cf2680767abb73e56df4cd817.dita
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.TopicFragmentFilter
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.NormalizeTableFilter
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.NormalizeSimpleTableFilter
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.CoderefResolver
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.NormalizeCodeblock
+[preprocess2.topic-fragment] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/8d17b455d2e7b4ac77b1e2fe557ba01d545693a0.dita
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.TopicFragmentFilter
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.NormalizeTableFilter
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.NormalizeSimpleTableFilter
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.CoderefResolver
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.NormalizeCodeblock
+[preprocess2.topic-fragment] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/4ca07de3af4f074c29f5e61036a35d7273f025c7.dita
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.TopicFragmentFilter
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.NormalizeTableFilter
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.NormalizeSimpleTableFilter
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.CoderefResolver
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.NormalizeCodeblock
+[preprocess2.topic-fragment] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/e667780d1cca5956710af56fa1fd54232a9d11a4.dita
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.TopicFragmentFilter
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.NormalizeTableFilter
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.NormalizeSimpleTableFilter
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.CoderefResolver
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.NormalizeCodeblock
+[preprocess2.topic-fragment] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/67769e35bb65d33adfb90daa03ded7d4c00df585.dita
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.TopicFragmentFilter
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.NormalizeTableFilter
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.NormalizeSimpleTableFilter
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.CoderefResolver
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.NormalizeCodeblock
+[preprocess2.topic-fragment] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/cfe8aa6996a2752bb9b41ea724249a74ae71d39f.dita
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.TopicFragmentFilter
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.NormalizeTableFilter
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.NormalizeSimpleTableFilter
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.CoderefResolver
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.NormalizeCodeblock
+[preprocess2.topic-fragment] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/69551f081fb683504a1146f3b58b5242f69949a5.dita
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.TopicFragmentFilter
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.NormalizeTableFilter
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.NormalizeSimpleTableFilter
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.CoderefResolver
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.NormalizeCodeblock
+[preprocess2.topic-fragment] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/d21a8980c2952edd825234d04cc6a47531b5833a.dita
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.TopicFragmentFilter
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.NormalizeTableFilter
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.NormalizeSimpleTableFilter
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.CoderefResolver
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.NormalizeCodeblock
+[preprocess2.topic-fragment] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/063fd3d1267651a67923000b50d041b66a67999a.dita
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.TopicFragmentFilter
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.NormalizeTableFilter
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.NormalizeSimpleTableFilter
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.CoderefResolver
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.NormalizeCodeblock
+[preprocess2.topic-fragment] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/6de8c095ee6a8c038234ac59e3499b073d24ef68.dita
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.TopicFragmentFilter
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.NormalizeTableFilter
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.NormalizeSimpleTableFilter
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.CoderefResolver
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.NormalizeCodeblock
+[preprocess2.topic-fragment] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/7f98112a90acb2fa0b67522afac6178611d722be.dita
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.TopicFragmentFilter
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.NormalizeTableFilter
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.NormalizeSimpleTableFilter
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.CoderefResolver
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.NormalizeCodeblock
+[preprocess2.topic-fragment] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/afb31f1d2a40c0c1fcbcca56e6f0526557cc3f4c.dita
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.TopicFragmentFilter
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.NormalizeTableFilter
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.NormalizeSimpleTableFilter
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.CoderefResolver
+[preprocess2.topic-fragment] Configure filter org.dita.dost.writer.NormalizeCodeblock
+[preprocess2.topic-fragment] XmlFilterModule processing took 86 ms
+
+topic-chunk:
+Skipped because property 'preprocess.chunk.skip' set.
+
+topic-move-meta-entries:
+[move-meta] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/24450557882318648508167cea6130a89c6786f3.ditamap
+[move-meta] Writing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/24450557882318648508167cea6130a89c6786f3.ditamap
+[move-meta] Loading stylesheet C:\dita-ot-3.7.3\plugins\org.dita.base\xsl\preprocess\mappull.xsl
+[move-meta] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/24450557882318648508167cea6130a89c6786f3.ditamap
+[move-meta] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/24450557882318648508167cea6130a89c6786f3.ditamap to file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/24450557882318648508167cea6130a89c6786f3.ditamap.tmp1666115085486
+[move-meta] Set parameter basedir to 'C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird'
+[move-meta] Set parameter style to 'C:\dita-ot-3.7.3\plugins\org.dita.base\xsl\preprocess\mappull.xsl'
+[move-meta] Set parameter conserve-memory to 'false'
+[move-meta] Set parameter message to 'Move metadata entries.'
+[move-meta] Moving file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/24450557882318648508167cea6130a89c6786f3.ditamap.tmp1666115085486 to file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/24450557882318648508167cea6130a89c6786f3.ditamap
+[move-meta] MoveMetaModule processing took 176 ms
+
+topic-maplink:
+Property "dita.preprocess.reloadstylesheet" has not been set
+  [maplink] MoveLinksModule processing took 100 ms
+
+topic-topicpull:
+Property "dita.preprocess.reloadstylesheet" has not been set
+[topicpull] Transforming into C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp
+[topicpull] Loading stylesheet file:/C:/dita-ot-3.7.3/plugins/org.dita.base/xsl/preprocess/topicpull.xsl
+[topicpull] Loading stylesheet file:/C:/dita-ot-3.7.3/plugins/org.dita.base/xsl/preprocess/topicpull.xsl
+[topicpull] Set parameter ONLYTOPICINMAP to 'false'
+[topicpull] Set parameter defaultLanguage to 'en'
+[topicpull] Set parameter FIGURELINK to 'TITLE'
+[topicpull] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/8d17b455d2e7b4ac77b1e2fe557ba01d545693a0.dita
+[topicpull] Set parameter ONLYTOPICINMAP to 'false'
+[topicpull] Set parameter defaultLanguage to 'en'
+[topicpull] Set parameter FIGURELINK to 'TITLE'
+[topicpull] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/4ca07de3af4f074c29f5e61036a35d7273f025c7.dita
+[topicpull] Set parameter ONLYTOPICINMAP to 'false'
+[topicpull] Set parameter defaultLanguage to 'en'
+[topicpull] Set parameter FIGURELINK to 'TITLE'
+[topicpull] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/e667780d1cca5956710af56fa1fd54232a9d11a4.dita
+[topicpull] Set parameter ONLYTOPICINMAP to 'false'
+[topicpull] Set parameter defaultLanguage to 'en'
+[topicpull] Set parameter FIGURELINK to 'TITLE'
+[topicpull] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/67769e35bb65d33adfb90daa03ded7d4c00df585.dita
+[topicpull] Set parameter ONLYTOPICINMAP to 'false'
+[topicpull] Set parameter defaultLanguage to 'en'
+[topicpull] Set parameter FIGURELINK to 'TITLE'
+[topicpull] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/cfe8aa6996a2752bb9b41ea724249a74ae71d39f.dita
+[topicpull] Set parameter ONLYTOPICINMAP to 'false'
+[topicpull] Set parameter defaultLanguage to 'en'
+[topicpull] Set parameter FIGURELINK to 'TITLE'
+[topicpull] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/69551f081fb683504a1146f3b58b5242f69949a5.dita
+[topicpull] Set parameter ONLYTOPICINMAP to 'false'
+[topicpull] Set parameter defaultLanguage to 'en'
+[topicpull] Set parameter FIGURELINK to 'TITLE'
+[topicpull] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/d21a8980c2952edd825234d04cc6a47531b5833a.dita
+[topicpull] Set parameter ONLYTOPICINMAP to 'false'
+[topicpull] Set parameter defaultLanguage to 'en'
+[topicpull] Set parameter FIGURELINK to 'TITLE'
+[topicpull] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/afb31f1d2a40c0c1fcbcca56e6f0526557cc3f4c.dita
+[topicpull] XsltModule processing took 149 ms
+
+preprocess2.topics:
+
+map-clean-map:
+Property "dita.preprocess.reloadstylesheet" has not been set
+[clean-map] Transforming into C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp
+[clean-map] Loading stylesheet file:/C:/dita-ot-3.7.3/plugins/org.dita.base/xsl/preprocess/clean-map.xsl
+Apache resolver library found, xml-commons resolver will be used
+[clean-map] Loading stylesheet file:/C:/dita-ot-3.7.3/plugins/org.dita.base/xsl/preprocess/clean-map.xsl
+[clean-map] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/24450557882318648508167cea6130a89c6786f3.ditamap
+[clean-map] XsltModule processing took 148 ms
+
+clean-preprocess:
+[clean-preprocess] CleanPreprocessModule processing took 4 ms
+
+copy-image2:
+Skipped because property 'preprocess.copy-image.skip' set.
+
+copy-html:
+Property "_dita.map.output.dir" has not been set
+Property "uplevels" has not been set
+
+copy-flag-check:
+Overriding previous definition of property "transtypes"
+Overriding previous definition of property "parser.md"
+Overriding previous definition of property "plugin.org.dita.specialization.dita11.dir"
+Overriding previous definition of property "parser.hdita"
+Overriding previous definition of property "cli.color"
+Overriding previous definition of property "plugin.org.dita.pdf2.dir"
+Overriding previous definition of property "print_transtypes"
+Overriding previous definition of property "supported_resource_extensions"
+Overriding previous definition of property "plugin.org.dita.xhtml.dir"
+Overriding previous definition of property "plugin.org.dita.index.dir"
+Overriding previous definition of property "supported_html_extensions"
+Overriding previous definition of property "plugin.order"
+Overriding previous definition of property "otrelease"
+Overriding previous definition of property "supported_image_extensions"
+Overriding previous definition of property "org.dita.pdf2.i18n.enabled"
+Overriding previous definition of property "plugin.org.dita.html5.dir"
+Overriding previous definition of property "default.cascade"
+Overriding previous definition of property "plugin.org.dita.eclipsehelp.dir"
+Overriding previous definition of property "plugin.org.oasis-open.xdita.v0_2_2.dir"
+Overriding previous definition of property "plugin.org.dita.htmlhelp.dir"
+Overriding previous definition of property "temp-file-name-scheme"
+Overriding previous definition of property "plugin.com.tbird.pdf.dir"
+Overriding previous definition of property "plugin.org.dita.base.dir"
+Overriding previous definition of property "plugindirs"
+Overriding previous definition of property "parser.mdita"
+Overriding previous definition of property "plugin.ignores"
+Overriding previous definition of property "registry"
+Overriding previous definition of property "plugin.org.dita.normalize.dir"
+Overriding previous definition of property "plugin.org.dita.pdf2.axf.dir"
+Overriding previous definition of property "plugin.org.oasis-open.dita.techcomm.v2_0.dir"
+Overriding previous definition of property "plugin.org.oasis-open.dita.v1_2.dir"
+Overriding previous definition of property "plugin.org.dita.pdf2.fop.dir"
+Overriding previous definition of property "plugin.org.lwdita.dir"
+Overriding previous definition of property "plugin.org.dita.pdf2.xep.dir"
+Overriding previous definition of property "plugin.org.oasis-open.dita.v2_0.dir"
+Overriding previous definition of property "otversion"
+Overriding previous definition of property "plugin.org.oasis-open.dita.v1_3.dir"
+Overriding previous definition of property "parser.markdown"
+Override ignored for property "preprocess.copy-flag.skip"
+
+copy-flag:
+Skipped because property 'preprocess.copy-flag.skip' set.
+
+copy-files2:
+
+preprocess2:
+Override ignored for property "uplevels"
+
+map2pdf2:
+[topic-merge] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/24450557882318648508167cea6130a89c6786f3.ditamap
+[topic-merge] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/cfe8aa6996a2752bb9b41ea724249a74ae71d39f.dita
+[topic-merge] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/69551f081fb683504a1146f3b58b5242f69949a5.dita
+[topic-merge] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/67769e35bb65d33adfb90daa03ded7d4c00df585.dita
+[topic-merge] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/8d17b455d2e7b4ac77b1e2fe557ba01d545693a0.dita
+[topic-merge] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/4ca07de3af4f074c29f5e61036a35d7273f025c7.dita
+[topic-merge] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/e667780d1cca5956710af56fa1fd54232a9d11a4.dita
+[topic-merge] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/d21a8980c2952edd825234d04cc6a47531b5833a.dita
+[topic-merge] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/afb31f1d2a40c0c1fcbcca56e6f0526557cc3f4c.dita
+[topic-merge] TopicMergeModule processing took 117 ms
+Project base dir set to: C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird
+  [antcall] calling target(s) [publish.map.pdf] in build file C:\dita-ot-3.7.3\build.xml
+parsing buildfile C:\dita-ot-3.7.3\build.xml with URI = file:/C:/dita-ot-3.7.3/build.xml
+Project base dir set to: C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird
+Override ignored for property "ant.file.DOST.dir"
+Override ignored for property "dita.dir"
+Override ignored for property "dita.dir"
+ [property] Loading C:\dita-ot-3.7.3\local.properties
+ [property] Unable to find property file: C:\dita-ot-3.7.3\local.properties
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml from C:\dita-ot-3.7.3\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.base/build.xml
+Override ignored for property "dita.plugin.org.dita.base.dir"
+Override ignored for property "dita.plugin.org.dita.htmlhelp.dir"
+Override ignored for property "dita.plugin.org.dita.pdf2.xep.dir"
+Override ignored for property "dita.plugin.org.oasis-open.dita.techcomm.v2_0.dir"
+Override ignored for property "dita.plugin.org.dita.eclipsehelp.dir"
+Override ignored for property "dita.plugin.org.dita.pdf2.fop.dir"
+Override ignored for property "dita.plugin.org.dita.specialization.dita11.dir"
+Override ignored for property "dita.plugin.com.tbird.pdf.dir"
+Override ignored for property "dita.plugin.org.dita.normalize.dir"
+Override ignored for property "dita.plugin.org.oasis-open.xdita.v0_2_2.dir"
+Override ignored for property "dita.plugin.org.dita.pdf2.axf.dir"
+Override ignored for property "dita.plugin.org.dita.html5.dir"
+Override ignored for property "dita.plugin.org.dita.index.dir"
+Override ignored for property "dita.plugin.org.dita.xhtml.dir"
+Override ignored for property "dita.plugin.org.lwdita.dir"
+Override ignored for property "dita.plugin.org.dita.pdf2.dir"
+Override ignored for property "dita.plugin.org.oasis-open.dita.v1_2.dir"
+Override ignored for property "dita.plugin.org.oasis-open.dita.v1_3.dir"
+Override ignored for property "dita.plugin.org.oasis-open.dita.v2_0.dir"
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.base\build_init.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.base\build_init.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.base/build_init.xml
+Override ignored for property "otrelease"
+Override ignored for property "otversion"
+ [property] Loading C:\dita-ot-3.7.3\config\org.dita.dost.platform\plugin.properties
+Override ignored for property "plugin.org.dita.eclipsehelp.dir"
+Override ignored for property "plugin.org.oasis-open.xdita.v0_2_2.dir"
+Override ignored for property "plugin.org.dita.htmlhelp.dir"
+Override ignored for property "plugin.com.tbird.pdf.dir"
+Override ignored for property "transtypes"
+Override ignored for property "plugin.org.dita.base.dir"
+Override ignored for property "parser.md"
+Override ignored for property "parser.mdita"
+Override ignored for property "plugin.org.dita.specialization.dita11.dir"
+Override ignored for property "parser.hdita"
+Override ignored for property "plugin.org.dita.normalize.dir"
+Override ignored for property "plugin.org.dita.pdf2.axf.dir"
+Override ignored for property "plugin.org.dita.pdf2.dir"
+Override ignored for property "print_transtypes"
+Override ignored for property "plugin.org.oasis-open.dita.techcomm.v2_0.dir"
+Override ignored for property "plugin.org.oasis-open.dita.v1_2.dir"
+Override ignored for property "supported_resource_extensions"
+Override ignored for property "plugin.org.dita.xhtml.dir"
+Override ignored for property "plugin.org.dita.pdf2.fop.dir"
+Override ignored for property "plugin.org.dita.index.dir"
+Override ignored for property "plugin.org.lwdita.dir"
+Override ignored for property "plugin.org.dita.pdf2.xep.dir"
+Override ignored for property "supported_html_extensions"
+Override ignored for property "supported_image_extensions"
+Override ignored for property "plugin.org.oasis-open.dita.v2_0.dir"
+Override ignored for property "plugin.org.oasis-open.dita.v1_3.dir"
+Override ignored for property "parser.markdown"
+Override ignored for property "plugin.org.dita.html5.dir"
+ [property] Loading C:\dita-ot-3.7.3\config\configuration.properties
+Override ignored for property "default.cascade"
+Override ignored for property "registry"
+Override ignored for property "plugin.ignores"
+Override ignored for property "plugin.order"
+Override ignored for property "temp-file-name-scheme"
+Override ignored for property "plugindirs"
+Override ignored for property "org.dita.pdf2.i18n.enabled"
+Override ignored for property "cli.color"
+ [macrodef] creating macro  job-helper
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.base\build_preprocess.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.base\build_preprocess.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.base/build_preprocess.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.base\build_preprocess2.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.base\build_preprocess2.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.base/build_preprocess2.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.pdf2\build.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.pdf2\build.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.pdf2/build.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\com.tbird.pdf\build_dita2tbird-pdf.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\com.tbird.pdf\build_dita2tbird-pdf.xml with URI = file:/C:/dita-ot-3.7.3/plugins/com.tbird.pdf/build_dita2tbird-pdf.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.xhtml\build_general.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.xhtml\build_general.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.xhtml/build_general.xml
+ [macrodef] creating macro  topics.html
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.xhtml\build_dita2xhtml.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.xhtml\build_dita2xhtml.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.xhtml/build_dita2xhtml.xml
+ [macrodef] creating macro  map.html
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.eclipsehelp\build_dita2eclipsehelp.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.eclipsehelp\build_dita2eclipsehelp.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.eclipsehelp/build_dita2eclipsehelp.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.html5\build_dita2html5.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.html5\build_dita2html5.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.html5/build_dita2html5.xml
+ [macrodef] creating macro  html5.topics
+ [macrodef] creating macro  html5.map
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.htmlhelp\build_dita2htmlhelp.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.htmlhelp\build_dita2htmlhelp.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.htmlhelp/build_dita2htmlhelp.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.index\build.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.index\build.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.index/build.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.pdf2.axf\build.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.pdf2.axf\build.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.pdf2.axf/build.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.pdf2.fop\build_fop.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.pdf2.fop\build_fop.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.pdf2.fop/build_fop.xml
+Override ignored for property "fop.home"
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.pdf2.xep\build.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.pdf2.xep\build.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.pdf2.xep/build.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.dita.normalize\build.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.dita.normalize\build.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.dita.normalize/build.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.lwdita\build-markdown.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.lwdita\build-markdown.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.lwdita/build-markdown.xml
+ [macrodef] creating macro  markdown.map
+ [macrodef] creating macro  markdown.topics
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\dita-ot-3.7.3\plugins\org.lwdita\build-html.xml from C:\dita-ot-3.7.3\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\dita-ot-3.7.3\plugins\org.lwdita\build-html.xml with URI = file:/C:/dita-ot-3.7.3/plugins/org.lwdita/build-html.xml
+Overriding previous definition of reference to ant.projectHelper
+Overriding previous definition of reference to ant.projectHelper
+Build sequence for target(s) `publish.map.pdf' is [transform.topic2pdf.init, publish.map.pdf.init, copyCoreArtwork, transform.fo2pdf.xep.test-use, transform.fo2pdf.xep.init, transform.fo2pdf.fop.test-use, transform.fo2pdf.fop.init, transform.fo2pdf.ah.test-use, transform.fo2pdf.ah.init, transform.topic2fo.init, org.dita.index.init, org.dita.index, transform.topic2fo.main, transform.topic2fo.i18n.filter, transform.topic2fo.i18n.no-filter, transform.topic2fo.i18n, transform.topic2fo, transform.fo2pdf.xep, transform.fo2pdf.fop, transform.fo2pdf.ah, transform.fo2pdf, transform.topic2pdf, publish.map.pdf]
+Complete build sequence is [transform.topic2pdf.init, publish.map.pdf.init, copyCoreArtwork, transform.fo2pdf.xep.test-use, transform.fo2pdf.xep.init, transform.fo2pdf.fop.test-use, transform.fo2pdf.fop.init, transform.fo2pdf.ah.test-use, transform.fo2pdf.ah.init, transform.topic2fo.init, org.dita.index.init, org.dita.index, transform.topic2fo.main, transform.topic2fo.i18n.filter, transform.topic2fo.i18n.no-filter, transform.topic2fo.i18n, transform.topic2fo, transform.fo2pdf.xep, transform.fo2pdf.fop, transform.fo2pdf.ah, transform.fo2pdf, transform.topic2pdf, publish.map.pdf, dita2pdf2.init, dita.index.eclipsehelp.init, ditaot-preprocess.mapref-check, conref, preview.topic.pdf.init, dita.build.preview.topic.pdf, ditaot-preprocess.maplink-check, markdown_github.init, init-properties, check-arg, log-arg, build-init, preprocess.init, ditaval-merge, gen-list, debug-filter, mapref-check, mapref, branch-filter, keyref, copy-to, conrefpush, profile-check, profile, topic-fragment, chunk-check, chunk, move-meta-entries, maplink-check, maplink, topicpull-check, topicpull, clean-map-check, clean-map, clean-preprocess, copy-image, copy-html, copy-flag-check, copy-flag, copy-files, preprocess, markdown.init, markdown.topics.common, markdown.topics.common.inner, markdown.topic, markdown.map.init, markdown.map.toc, markdown.map, dita2markdown, dita2normalize.dita2markdown_github, dita2normalize.markdown.topics.common, ditaot-init.check-arg, dita2dita, org.dita.pdf2.xep.transform.fo2pdf.xep, dita2htmlhelp.init, ditaot-preprocess.profile-check, dita2html5.html5.map.toc, html5.map.init, html5.map.toc, dita2html5.html5.map, ditaot-preprocess2.map-conrefpush, dita2eclipsehelp.dita.map.eclipse.plugin.init, dita.map.eclipse.plugin.init, dita.map.eclipse.plugin, ditaot-preprocess.debug-filter, dita.map.eclipse.fragment.move.files, dita2normalize.dita.out.map.hdita.toc, xhtml.init, xhtml.image-metadata, htmlhelp.topics, ditaot-init.build-init, dita2xhtml.copy-css-user, ditaot-preprocess.copy-to, ditaot-preprocess.keyref, ditaot-preprocess.copy-flag-check, ditaot-preprocess2.topic-keyref, transform.topic2fo.index.init, dita.build.transform.topic2fo.index, ditaot-preprocess2.topic-maplink, preprocess2.init, map-reader, map-mapref, map-branch-filter, map-keyref, map-conrefpush, map-conref, map-profile-check, map-profile, preprocess2.maps, topic-reader, topic-branch-filter, topic-keyref, topic-copy-to, topic-conrefpush, topic-conref, topic-profile-check, topic-profile, preprocess2.topic-fragment, topic-chunk, topic-move-meta-entries, topic-maplink, topic-topicpull, preprocess2.topics, map-clean-map, copy-image2, copy-files2, preprocess2, build_generaltargets.output-css-warn-message, ditaot-preprocess2.topic-reader, ditaot-preprocess.chunk, dita.topics.html.common, dita.build.transform.topic2fo.i18n.filter, org.dita.pdf2.axf.transform.fo2pdf.ah.nooption, ditaot-preprocess2.topic-branch-filter, build_generaltargets.xhtml.image-metadata, dita2normalize.dita.topics.hdita.common, dita.map.xhtml.init, dita.map.xhtml.toc, dita.map.xhtml, dita.map.eclipse.toc, dita.build.transform.topic2fo.i18n, org.dita.pdf2.axf.transform.fo2pdf.ah, html5.topic.init, org.dita.pdf2.xep.transform.fo2pdf.xep.test-use, dita2tbird-pdf.init, map2pdf2, topic2pdf2, dita2pdf2, dita2tbird-pdf.dita2tbird-pdf, ditaot-preprocess2.preprocess2.topic-fragment, markdown_gitbook.init, dita2eclipsehelp.dita.map.eclipse.fragment.language.init, ditaot-preprocess.preprocess.init, copy-revflag, ditaot-preprocess.clean-map, dita2xhtml.init, dita.build.dita2pdf2, hdita.init, ditaot-preprocess.clean-preprocess, dita2xhtml.dita.out.map.xhtml.toc, org.dita.pdf2.xep.transform.fo2pdf.xep.init, ditaot-preprocess2.preprocess2, org.dita.pdf2.axf.transform.fo2pdf.ah.test-use, ditaot-preprocess.maplink, ditaot-init.init-properties, ditaot-preprocess.preprocess, use-init.envhhcdir, use-init.hhcdir, htmlhelp.copy-image, copy-css, dita2htmlhelp.dita2htmlhelp, dita2xhtml.dita.map.xhtml, copy-plugin-files, ditaot-preprocess2.map-clean-map, dita.build.dita2pdf, ditaot-preprocess.conrefpush, dita.map.eclipse.init, dita2eclipsehelp.dita.map.eclipse.fragment.error, ditaot-preprocess.branch-filter, dita.map.hdita.init, dita2eclipsehelp.copy-plugin-files, dita.build.transform.fo2pdf, html5.init, dita2eclipsehelp.dita.out.map.eclipse.plugin, build.eclipse.jar, org.dita.pdf2.fop.transform.fo2pdf.fop, dita.build.transform.topic2pdf.init, ditaot-preprocess2.map-mapref, dita.map.eclipse.fragment.language.init, ditaot-preprocess.gen-list, build_generaltargets.dita.topics.html.common, dita2htmlhelp.use-init.hhcdir, dita.build.publish.map.pdf, html5.topics.common.inner, dita2normalize.hdita.init, DOST.init, DOST.help, transform.fo2pdf.ah.nooption, dita.inner.topics.hdita.common, dita2htmlhelp.dita.htmlhelp.convertlang, ditaot-preprocess2.topic-topicpull, dita2eclipsehelp.dita.out.map.eclipse.toc, dita2normalize.markdown.init, html5.image-metadata, html5.topics.common, dita2html5.html5.topic, ditaot-preprocess.chunk-check, dita2normalize.markdown_gitbook.init, dita2htmlhelp.org.dita.index, build_generaltargets.dita.inner.topics.html.common, html5.topic, preprocess2-topic, ditaot-preprocess2.map-profile-check, dita.out.map.eclipse.plugin.properties, dita2eclipsehelp.dita.map.eclipse.index, ditaot-preprocess.profile, dita2normalize.markdown.topics.common.inner, dita.map.eclipse.fragment.language.country.init, dita2eclipsehelp.dita.map.eclipse.plugin.properties, ditaot-preprocess.copy-files, dita.inner.topics.html.common, build_generaltargets.xhtml.topics, org.dita.pdf2.fop.transform.fo2pdf.fop.test-use, dita2htmlhelp.dita2htmlhelp.init, dita.map.htmlhelp.init, ditaot-preprocess2.map-conref, dita.map.eclipse.index, dita.map.eclipse.plugin.properties, dita.map.eclipse.manifest.file, dita.out.map.eclipse.manifest.file, dita.out.map.eclipse.toc, dita.out.map.eclipse.index, dita.out.map.eclipse.plugin, dita.out.map.eclipse.fragment.move.files, dita.map.eclipse.genetrate.fragment, ditaot-preprocess.topicpull-check, init, help, ditaot-preprocess2.preprocess2-topic, dita.map.eclipse.fragment.error, ditaot-preprocess2.map-reader, ditaot-init.log-arg, dita2xhtml.copy-css, dita2normalize.markdown.map.toc, ditaot-preprocess.move-meta-entries, dita2markdown_gitbook, html5.css, dita.build.transform.topic2fo, preview.topic.pdf, transform.topic2fo.index, dita2eclipsehelp.dita.map.eclipse.init, xhtml.topics, dita2xhtml.dita2xhtml, ditaot-preprocess2.topic-move-meta-entries, dita2normalize.dita.inner.topics.hdita.common, dita2normalize.markdown_github.init, dita2eclipsehelp.dita.map.eclipse.toc, dita2normalize.dita2dita, ditaot-preprocess.copy-html, dita2normalize.markdown.topic, dita2html5.html5.topic.init, dita.topics.hdita.common, dita.map.hdita.toc, dita.out.map.hdita.toc, dita2normalize.dita2hdita, dita.map.eclipse.generate.plugin, clean-temp, dita2xhtml.dita2xhtml.init, ditaot-preprocess.copy-image, ditaot-preprocess.ditaval-merge, dita.map.htmlhelp.hhp, dita.map.htmlhelp.hhc, dita.map.htmlhelp.hhk, dita.htmlhelp.convertlang, compile.HTML.Help, dita.map.htmlhelp, dita2tbird-pdf.dita2tbird-pdf.init, dita2html5.html5.init, build_generaltargets.xhtml.init, dita2html5.html5.topics.common.inner, dita2xhtml.dita.map.xhtml.toc, org.dita.pdf2.fop.transform.fo2pdf.fop.init, dita2eclipsehelp.dita.out.map.eclipse.index, ditaot-preprocess2.preprocess2.maps, dita2eclipsehelp.build.eclipse.jar, ditaot-preprocess2.map-branch-filter, dita2normalize.markdown.map.init, dita2htmlhelp.compile.HTML.Help, dita.build.transform.topic2fo.index.init, dita2htmlhelp.dita.map.htmlhelp, html5.map, dita2html5, dita2html5.html5.map.init, ditaot-preprocess.mapref, dita2eclipsehelp.dita.out.map.eclipse.manifest.file, dita.build.transform.topic2fo.main, ditaot-preprocess.clean-map-check, dita2normalize.dita.map.hdita.toc, dita2eclipsehelp.dita.map.eclipse.genetrate.fragment, dita2eclipsehelp.dita.map.eclipse.fragment.language.country.init, dita.build.publish.map.pdf.init, ditaot-preprocess2.copy-image2, ditaot-preprocess.clean-temp, dita.build.dita2pdf2.init, dita2normalize.dita2markdown_gitbook, dita2eclipsehelp.dita.map.eclipse.manifest.file, dita2eclipsehelp.dita.out.map.eclipse.fragment.move.files, html5.copy-css-user, dita.eclipsehelp.init, dita2htmlhelp.org.dita.index.init, dita2hdita, dita2normalize.markdown.map, dita.build.transform.topic2fo.init, dita.out.map.xhtml.toc, ditaot-preprocess.copy-flag, dita2htmlhelp.htmlhelp.topics, dita2xhtml, dita2eclipsehelp.dita.index.eclipsehelp.init, org.dita.pdf2.axf.transform.fo2pdf.ah.hasoption, dita2eclipsehelp.dita.map.eclipse.generate.plugin, dita.build.preview.topic.pdf.init, ditaot-preprocess2.map-keyref, dita2htmlhelp.dita.map.htmlhelp.init, transform.fo2pdf.ah.hasoption, dita2eclipsehelp.dita.map.eclipse.plugin, ditaot-preprocess2.copy-files2, dita2pdf, ditaot-preprocess.conref, ditaot-preprocess2.topic-conref, dita.build.transform.topic2fo.i18n.no-filter, dita.build.copyCoreArtwork, dita2normalize.dita2markdown, dita2xhtml.copy-revflag, dita.build.transform.topic2pdf, dita2markdown_github, ditaot-preprocess.topic-fragment, ditaot-preprocess2.topic-conrefpush, dita.map.eclipse, dita2eclipsehelp.dita2eclipsehelp, ditaot-preprocess2.preprocess2.topics, dita2html5.html5.css, dita2eclipsehelp, dita2eclipsehelp.dita.map.eclipse, dita.build.topic2pdf2, dita2eclipsehelp.dita.map.eclipse.fragment.move.files, dita2html5.html5.copy-css-user, dita2normalize.dita.map.hdita.init, dita2htmlhelp.dita.map.htmlhelp.hhp, ditaot-preprocess2.map-profile, ditaot-preprocess.topicpull, dita2htmlhelp.dita.map.htmlhelp.hhk, ditaot-preprocess2.topic-profile-check, output-css-warn-message, dita2htmlhelp.dita.map.htmlhelp.hhc, dita2htmlhelp.htmlhelp.copy-image, dita2htmlhelp.use-init.envhhcdir, dita2html5.html5.image-metadata, copy-css-user, dita2htmlhelp, dita2eclipsehelp.dita.out.map.eclipse.plugin.properties, dita.build.map2pdf2, dita2html5.html5.topics.common, ditaot-preprocess2.topic-copy-to, dita2html5.dita2html5, org.dita.pdf2.axf.transform.fo2pdf.ah.init, ditaot-preprocess2.topic-chunk, dita2eclipsehelp.dita.eclipsehelp.init, ditaot-preprocess2.preprocess2.init, dita2xhtml.dita.map.xhtml.init, dita2tbird-pdf, , ditaot-preprocess2.topic-profile]
+  [antcall] Entering C:\dita-ot-3.7.3\build.xml...
+Build sequence for target(s) `publish.map.pdf' is [transform.topic2pdf.init, publish.map.pdf.init, copyCoreArtwork, transform.fo2pdf.xep.test-use, transform.fo2pdf.xep.init, transform.fo2pdf.fop.test-use, transform.fo2pdf.fop.init, transform.fo2pdf.ah.test-use, transform.fo2pdf.ah.init, transform.topic2fo.init, org.dita.index.init, org.dita.index, transform.topic2fo.main, transform.topic2fo.i18n.filter, transform.topic2fo.i18n.no-filter, transform.topic2fo.i18n, transform.topic2fo, transform.fo2pdf.xep, transform.fo2pdf.fop, transform.fo2pdf.ah, transform.fo2pdf, transform.topic2pdf, publish.map.pdf]
+Complete build sequence is [transform.topic2pdf.init, publish.map.pdf.init, copyCoreArtwork, transform.fo2pdf.xep.test-use, transform.fo2pdf.xep.init, transform.fo2pdf.fop.test-use, transform.fo2pdf.fop.init, transform.fo2pdf.ah.test-use, transform.fo2pdf.ah.init, transform.topic2fo.init, org.dita.index.init, org.dita.index, transform.topic2fo.main, transform.topic2fo.i18n.filter, transform.topic2fo.i18n.no-filter, transform.topic2fo.i18n, transform.topic2fo, transform.fo2pdf.xep, transform.fo2pdf.fop, transform.fo2pdf.ah, transform.fo2pdf, transform.topic2pdf, publish.map.pdf, dita2pdf2.init, dita.index.eclipsehelp.init, ditaot-preprocess.mapref-check, conref, preview.topic.pdf.init, dita.build.preview.topic.pdf, ditaot-preprocess.maplink-check, markdown_github.init, init-properties, check-arg, log-arg, build-init, preprocess.init, ditaval-merge, gen-list, debug-filter, mapref-check, mapref, branch-filter, keyref, copy-to, conrefpush, profile-check, profile, topic-fragment, chunk-check, chunk, move-meta-entries, maplink-check, maplink, topicpull-check, topicpull, clean-map-check, clean-map, clean-preprocess, copy-image, copy-html, copy-flag-check, copy-flag, copy-files, preprocess, markdown.init, markdown.topics.common, markdown.topics.common.inner, markdown.topic, markdown.map.init, markdown.map.toc, markdown.map, dita2markdown, dita2normalize.dita2markdown_github, dita2normalize.markdown.topics.common, ditaot-init.check-arg, dita2dita, org.dita.pdf2.xep.transform.fo2pdf.xep, dita2htmlhelp.init, ditaot-preprocess.profile-check, dita2html5.html5.map.toc, html5.map.init, html5.map.toc, dita2html5.html5.map, ditaot-preprocess2.map-conrefpush, dita2eclipsehelp.dita.map.eclipse.plugin.init, dita.map.eclipse.plugin.init, dita.map.eclipse.plugin, ditaot-preprocess.debug-filter, dita.map.eclipse.fragment.move.files, dita2normalize.dita.out.map.hdita.toc, xhtml.init, xhtml.image-metadata, htmlhelp.topics, ditaot-init.build-init, dita2xhtml.copy-css-user, ditaot-preprocess.copy-to, ditaot-preprocess.keyref, ditaot-preprocess.copy-flag-check, ditaot-preprocess2.topic-keyref, transform.topic2fo.index.init, dita.build.transform.topic2fo.index, ditaot-preprocess2.topic-maplink, preprocess2.init, map-reader, map-mapref, map-branch-filter, map-keyref, map-conrefpush, map-conref, map-profile-check, map-profile, preprocess2.maps, topic-reader, topic-branch-filter, topic-keyref, topic-copy-to, topic-conrefpush, topic-conref, topic-profile-check, topic-profile, preprocess2.topic-fragment, topic-chunk, topic-move-meta-entries, topic-maplink, topic-topicpull, preprocess2.topics, map-clean-map, copy-image2, copy-files2, preprocess2, build_generaltargets.output-css-warn-message, ditaot-preprocess2.topic-reader, ditaot-preprocess.chunk, dita.topics.html.common, dita.build.transform.topic2fo.i18n.filter, org.dita.pdf2.axf.transform.fo2pdf.ah.nooption, ditaot-preprocess2.topic-branch-filter, build_generaltargets.xhtml.image-metadata, dita2normalize.dita.topics.hdita.common, dita.map.xhtml.init, dita.map.xhtml.toc, dita.map.xhtml, dita.map.eclipse.toc, dita.build.transform.topic2fo.i18n, org.dita.pdf2.axf.transform.fo2pdf.ah, html5.topic.init, org.dita.pdf2.xep.transform.fo2pdf.xep.test-use, dita2tbird-pdf.init, map2pdf2, topic2pdf2, dita2pdf2, dita2tbird-pdf.dita2tbird-pdf, ditaot-preprocess2.preprocess2.topic-fragment, markdown_gitbook.init, dita2eclipsehelp.dita.map.eclipse.fragment.language.init, ditaot-preprocess.preprocess.init, copy-revflag, ditaot-preprocess.clean-map, dita2xhtml.init, dita.build.dita2pdf2, hdita.init, ditaot-preprocess.clean-preprocess, dita2xhtml.dita.out.map.xhtml.toc, org.dita.pdf2.xep.transform.fo2pdf.xep.init, ditaot-preprocess2.preprocess2, org.dita.pdf2.axf.transform.fo2pdf.ah.test-use, ditaot-preprocess.maplink, ditaot-init.init-properties, ditaot-preprocess.preprocess, use-init.envhhcdir, use-init.hhcdir, htmlhelp.copy-image, copy-css, dita2htmlhelp.dita2htmlhelp, dita2xhtml.dita.map.xhtml, copy-plugin-files, ditaot-preprocess2.map-clean-map, dita.build.dita2pdf, ditaot-preprocess.conrefpush, dita.map.eclipse.init, dita2eclipsehelp.dita.map.eclipse.fragment.error, ditaot-preprocess.branch-filter, dita.map.hdita.init, dita2eclipsehelp.copy-plugin-files, dita.build.transform.fo2pdf, html5.init, dita2eclipsehelp.dita.out.map.eclipse.plugin, build.eclipse.jar, org.dita.pdf2.fop.transform.fo2pdf.fop, dita.build.transform.topic2pdf.init, ditaot-preprocess2.map-mapref, dita.map.eclipse.fragment.language.init, ditaot-preprocess.gen-list, build_generaltargets.dita.topics.html.common, dita2htmlhelp.use-init.hhcdir, dita.build.publish.map.pdf, html5.topics.common.inner, dita2normalize.hdita.init, DOST.init, DOST.help, transform.fo2pdf.ah.nooption, dita.inner.topics.hdita.common, dita2htmlhelp.dita.htmlhelp.convertlang, ditaot-preprocess2.topic-topicpull, dita2eclipsehelp.dita.out.map.eclipse.toc, dita2normalize.markdown.init, html5.image-metadata, html5.topics.common, dita2html5.html5.topic, ditaot-preprocess.chunk-check, dita2normalize.markdown_gitbook.init, dita2htmlhelp.org.dita.index, build_generaltargets.dita.inner.topics.html.common, html5.topic, preprocess2-topic, ditaot-preprocess2.map-profile-check, dita.out.map.eclipse.plugin.properties, dita2eclipsehelp.dita.map.eclipse.index, ditaot-preprocess.profile, dita2normalize.markdown.topics.common.inner, dita.map.eclipse.fragment.language.country.init, dita2eclipsehelp.dita.map.eclipse.plugin.properties, ditaot-preprocess.copy-files, dita.inner.topics.html.common, build_generaltargets.xhtml.topics, org.dita.pdf2.fop.transform.fo2pdf.fop.test-use, dita2htmlhelp.dita2htmlhelp.init, dita.map.htmlhelp.init, ditaot-preprocess2.map-conref, dita.map.eclipse.index, dita.map.eclipse.plugin.properties, dita.map.eclipse.manifest.file, dita.out.map.eclipse.manifest.file, dita.out.map.eclipse.toc, dita.out.map.eclipse.index, dita.out.map.eclipse.plugin, dita.out.map.eclipse.fragment.move.files, dita.map.eclipse.genetrate.fragment, ditaot-preprocess.topicpull-check, init, help, ditaot-preprocess2.preprocess2-topic, dita.map.eclipse.fragment.error, ditaot-preprocess2.map-reader, ditaot-init.log-arg, dita2xhtml.copy-css, dita2normalize.markdown.map.toc, ditaot-preprocess.move-meta-entries, dita2markdown_gitbook, html5.css, dita.build.transform.topic2fo, preview.topic.pdf, transform.topic2fo.index, dita2eclipsehelp.dita.map.eclipse.init, xhtml.topics, dita2xhtml.dita2xhtml, ditaot-preprocess2.topic-move-meta-entries, dita2normalize.dita.inner.topics.hdita.common, dita2normalize.markdown_github.init, dita2eclipsehelp.dita.map.eclipse.toc, dita2normalize.dita2dita, ditaot-preprocess.copy-html, dita2normalize.markdown.topic, dita2html5.html5.topic.init, dita.topics.hdita.common, dita.map.hdita.toc, dita.out.map.hdita.toc, dita2normalize.dita2hdita, dita.map.eclipse.generate.plugin, clean-temp, dita2xhtml.dita2xhtml.init, ditaot-preprocess.copy-image, ditaot-preprocess.ditaval-merge, dita.map.htmlhelp.hhp, dita.map.htmlhelp.hhc, dita.map.htmlhelp.hhk, dita.htmlhelp.convertlang, compile.HTML.Help, dita.map.htmlhelp, dita2tbird-pdf.dita2tbird-pdf.init, dita2html5.html5.init, build_generaltargets.xhtml.init, dita2html5.html5.topics.common.inner, dita2xhtml.dita.map.xhtml.toc, org.dita.pdf2.fop.transform.fo2pdf.fop.init, dita2eclipsehelp.dita.out.map.eclipse.index, ditaot-preprocess2.preprocess2.maps, dita2eclipsehelp.build.eclipse.jar, ditaot-preprocess2.map-branch-filter, dita2normalize.markdown.map.init, dita2htmlhelp.compile.HTML.Help, dita.build.transform.topic2fo.index.init, dita2htmlhelp.dita.map.htmlhelp, html5.map, dita2html5, dita2html5.html5.map.init, ditaot-preprocess.mapref, dita2eclipsehelp.dita.out.map.eclipse.manifest.file, dita.build.transform.topic2fo.main, ditaot-preprocess.clean-map-check, dita2normalize.dita.map.hdita.toc, dita2eclipsehelp.dita.map.eclipse.genetrate.fragment, dita2eclipsehelp.dita.map.eclipse.fragment.language.country.init, dita.build.publish.map.pdf.init, ditaot-preprocess2.copy-image2, ditaot-preprocess.clean-temp, dita.build.dita2pdf2.init, dita2normalize.dita2markdown_gitbook, dita2eclipsehelp.dita.map.eclipse.manifest.file, dita2eclipsehelp.dita.out.map.eclipse.fragment.move.files, html5.copy-css-user, dita.eclipsehelp.init, dita2htmlhelp.org.dita.index.init, dita2hdita, dita2normalize.markdown.map, dita.build.transform.topic2fo.init, dita.out.map.xhtml.toc, ditaot-preprocess.copy-flag, dita2htmlhelp.htmlhelp.topics, dita2xhtml, dita2eclipsehelp.dita.index.eclipsehelp.init, org.dita.pdf2.axf.transform.fo2pdf.ah.hasoption, dita2eclipsehelp.dita.map.eclipse.generate.plugin, dita.build.preview.topic.pdf.init, ditaot-preprocess2.map-keyref, dita2htmlhelp.dita.map.htmlhelp.init, transform.fo2pdf.ah.hasoption, dita2eclipsehelp.dita.map.eclipse.plugin, ditaot-preprocess2.copy-files2, dita2pdf, ditaot-preprocess.conref, ditaot-preprocess2.topic-conref, dita.build.transform.topic2fo.i18n.no-filter, dita.build.copyCoreArtwork, dita2normalize.dita2markdown, dita2xhtml.copy-revflag, dita.build.transform.topic2pdf, dita2markdown_github, ditaot-preprocess.topic-fragment, ditaot-preprocess2.topic-conrefpush, dita.map.eclipse, dita2eclipsehelp.dita2eclipsehelp, ditaot-preprocess2.preprocess2.topics, dita2html5.html5.css, dita2eclipsehelp, dita2eclipsehelp.dita.map.eclipse, dita.build.topic2pdf2, dita2eclipsehelp.dita.map.eclipse.fragment.move.files, dita2html5.html5.copy-css-user, dita2normalize.dita.map.hdita.init, dita2htmlhelp.dita.map.htmlhelp.hhp, ditaot-preprocess2.map-profile, ditaot-preprocess.topicpull, dita2htmlhelp.dita.map.htmlhelp.hhk, ditaot-preprocess2.topic-profile-check, output-css-warn-message, dita2htmlhelp.dita.map.htmlhelp.hhc, dita2htmlhelp.htmlhelp.copy-image, dita2htmlhelp.use-init.envhhcdir, dita2html5.html5.image-metadata, copy-css-user, dita2htmlhelp, dita2eclipsehelp.dita.out.map.eclipse.plugin.properties, dita.build.map2pdf2, dita2html5.html5.topics.common, ditaot-preprocess2.topic-copy-to, dita2html5.dita2html5, org.dita.pdf2.axf.transform.fo2pdf.ah.init, ditaot-preprocess2.topic-chunk, dita2eclipsehelp.dita.eclipsehelp.init, ditaot-preprocess2.preprocess2.init, dita2xhtml.dita.map.xhtml.init, dita2tbird-pdf, , ditaot-preprocess2.topic-profile]
+
+transform.topic2pdf.init:
+ [property] Loading C:\dita-ot-3.7.3\plugins\org.dita.pdf2\Customization\build.properties
+ [property] Unable to find property file: C:\dita-ot-3.7.3\plugins\org.dita.pdf2\Customization\build.properties
+ [loadfile] loading en into property default.locale
+ [loadfile] loaded 2 characters
+Override ignored for property "pdf.formatter"
+[pathconvert] Set property xml.catalog.files = C:\dita-ot-3.7.3\plugins\org.dita.pdf2\Customization\catalog.xml;C:\dita-ot-3.7.3\plugins\org.dita.pdf2\cfg\catalog.xml;C:\dita-ot-3.7.3\plugins\org.dita.base\catalog-dita.xml
+
+publish.map.pdf.init:
+Property "args.output.base" has not been set
+
+copyCoreArtwork:
+     [copy] cfg\common\artwork\ISO_7010_W001.svg added as cfg\common\artwork\ISO_7010_W001.svg doesn't exist.
+     [copy] cfg\common\artwork\hand.gif added as cfg\common\artwork\hand.gif doesn't exist.
+     [copy] cfg\common\artwork\hand_rtl.gif added as cfg\common\artwork\hand_rtl.gif doesn't exist.
+     [copy] cfg\common\artwork\warning.gif added as cfg\common\artwork\warning.gif doesn't exist.
+     [copy] No sources found.
+     [copy] Copying 4 files to C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\Configuration\OpenTopic
+     [copy] Copying C:\dita-ot-3.7.3\plugins\org.dita.pdf2\cfg\common\artwork\ISO_7010_W001.svg to C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\Configuration\OpenTopic\cfg\common\artwork\ISO_7010_W001.svg
+     [copy] Copying C:\dita-ot-3.7.3\plugins\org.dita.pdf2\cfg\common\artwork\hand.gif to C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\Configuration\OpenTopic\cfg\common\artwork\hand.gif
+     [copy] Copying C:\dita-ot-3.7.3\plugins\org.dita.pdf2\cfg\common\artwork\hand_rtl.gif to C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\Configuration\OpenTopic\cfg\common\artwork\hand_rtl.gif
+     [copy] Copying C:\dita-ot-3.7.3\plugins\org.dita.pdf2\cfg\common\artwork\warning.gif to C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\Configuration\OpenTopic\cfg\common\artwork\warning.gif
+     [copy] No sources found.
+     [copy] No sources found.
+
+transform.fo2pdf.xep.test-use:
+
+transform.fo2pdf.xep.init:
+Skipped because property 'use.xep.pdf.formatter' not set.
+
+transform.fo2pdf.fop.test-use:
+
+transform.fo2pdf.fop.init:
+Override ignored for property "use.fop.pdf.formatter"
+
+transform.fo2pdf.ah.test-use:
+
+transform.fo2pdf.ah.init:
+Skipped because property 'use.ah.pdf.formatter' not set.
+
+transform.topic2fo.init:
+dropping C:\Program Files\Oxygen XML Author 24\classes from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\lib\oxygen.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\lib\oxygenDeveloper.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\lib\oxygenEclipse.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\lib\oxygenAuthorEclipse.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\lib\oxygenDeveloperEclipse.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\lib\oxygenCommons.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\lib\oxygen-license.jar from path as it doesn't exist
+dropping C:\dita-ot-3.7.3\target\classes from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\classes from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\lib\oxygen.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\lib\oxygenDeveloper.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\lib\oxygenEclipse.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\lib\oxygenAuthorEclipse.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\lib\oxygenDeveloperEclipse.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\lib\oxygenCommons.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\lib\oxygen-license.jar from path as it doesn't exist
+dropping C:\dita-ot-3.7.3\target\classes from path as it doesn't exist
+  [makeurl] Setting inputFile.url to URL file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/proposal_template_MERGED.xml
+[available] Unable to find temp\tbird-pdf\oxygen_dita_temp\strings.180135378.xml
+ [property] Loading C:\dita-ot-3.7.3\plugins\org.dita.pdf2\cfg\common\properties\en.properties
+ [property] Unable to find property file: C:\dita-ot-3.7.3\plugins\org.dita.pdf2\cfg\common\properties\en.properties
+     [echo] Using document.locale=en
+Property "args.xsl.pdf" has not been set
+Property "args.xsl.pdf" has not been set
+Property "args.xsl.pdf" has not been set
+Override ignored for property "args.figurelink.style"
+
+org.dita.index.init:
+Property "org.dita.index.skip" has not been set
+
+org.dita.index:
+[available] Found: C:\dita-ot-3.7.3\plugins\org.dita.index\index\en.xml
+[available] Found: C:\dita-ot-3.7.3\plugins\org.dita.index\index\en.xml
+Override ignored for property "index.config.file"
+Override ignored for property "index.config.file"
+     [echo] Processing C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\proposal_template_MERGED.xml to C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird/temp/tbird-pdf/oxygen_dita_temp/stage1.xml
+
+transform.topic2fo.main:
+[available] Found: temp\tbird-pdf\oxygen_dita_temp\stage1.xml
+  [makeurl] Setting artworkPrefixUrl to URL file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/
+  [makeurl] Setting dita.map.output.dir.url to URL file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/
+  [makeurl] Setting work.dir.url to URL file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/
+  [makeurl] Setting customization.dir.url to URL file:/C:/dita-ot-3.7.3/plugins/org.dita.pdf2/Customization/
+  [makeurl] Setting user.input.dir.url to URL file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/
+  [makeurl] Setting variable.file.url to URL file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/strings.180135378.xml
+ [pipeline] Loading stylesheet file:/C:/dita-ot-3.7.3/plugins/org.dita.pdf2.fop/xsl/fo/topic2fo_shell_fop.xsl
+Apache resolver library found, xml-commons resolver will be used
+dropping C:\Program Files\Oxygen XML Author 24\C:\Program Files\Oxygen XML Author 24\classes from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\C:\Program Files\Oxygen XML Author 24\lib\oxygen.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\C:\Program Files\Oxygen XML Author 24\lib\oxygenDeveloper.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\C:\Program Files\Oxygen XML Author 24\lib\oxygenEclipse.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\C:\Program Files\Oxygen XML Author 24\lib\oxygenAuthorEclipse.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\C:\Program Files\Oxygen XML Author 24\lib\oxygenDeveloperEclipse.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\C:\Program Files\Oxygen XML Author 24\lib\oxygenCommons.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\C:\Program Files\Oxygen XML Author 24\lib\oxygen-license.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\C:\dita-ot-3.7.3\target\classes from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\C:\Program Files\Oxygen XML Author 24\classes from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\C:\Program Files\Oxygen XML Author 24\lib\oxygen.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\C:\Program Files\Oxygen XML Author 24\lib\oxygenDeveloper.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\C:\Program Files\Oxygen XML Author 24\lib\oxygenEclipse.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\C:\Program Files\Oxygen XML Author 24\lib\oxygenAuthorEclipse.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\C:\Program Files\Oxygen XML Author 24\lib\oxygenDeveloperEclipse.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\C:\Program Files\Oxygen XML Author 24\lib\oxygenCommons.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\C:\Program Files\Oxygen XML Author 24\lib\oxygen-license.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\C:\dita-ot-3.7.3\target\classes from path as it doesn't exist
+ [pipeline] Loading stylesheet file:/C:/dita-ot-3.7.3/plugins/org.dita.pdf2.fop/xsl/fo/topic2fo_shell_fop.xsl
+ [pipeline] Set parameter bookmap-order to 'discard'
+ [pipeline] Set parameter customizationDir.url to 'file:/C:/dita-ot-3.7.3/plugins/org.dita.pdf2/Customization/'
+ [pipeline] Set parameter publishRequiredCleanup to 'no'
+ [pipeline] Set parameter DRAFT to 'no'
+ [pipeline] Set parameter figurelink.style to 'TITLE'
+ [pipeline] Set parameter pdfFormatter to 'fop'
+ [pipeline] Set parameter input.dir.url to 'file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/'
+ [pipeline] Set parameter work.dir.url to 'file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/'
+ [pipeline] Set parameter artworkPrefix to 'file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/'
+ [pipeline] Set parameter locale to 'en'
+ [pipeline] Set parameter antArgsBookmarkStyle to ''
+ [pipeline] Set parameter antArgsChapterLayout to ''
+ [pipeline] Set parameter defaultLanguage to 'en'
+ [pipeline] Set parameter tablelink.style to 'NUMTITLE'
+ [pipeline] Set parameter antArgsGenerateTaskLabels to ''
+ [pipeline] Set parameter output.dir.url to 'file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/'
+ [pipeline] Set parameter include.rellinks to '#default child sibling friend next previous cousin descendant sample external other'
+ [pipeline] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/stage1.xml to file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/stage2.fo
+dropping C:\Program Files\Oxygen XML Author 24\C:\Program Files\Oxygen XML Author 24\classes from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\C:\Program Files\Oxygen XML Author 24\lib\oxygen.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\C:\Program Files\Oxygen XML Author 24\lib\oxygenDeveloper.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\C:\Program Files\Oxygen XML Author 24\lib\oxygenEclipse.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\C:\Program Files\Oxygen XML Author 24\lib\oxygenAuthorEclipse.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\C:\Program Files\Oxygen XML Author 24\lib\oxygenDeveloperEclipse.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\C:\Program Files\Oxygen XML Author 24\lib\oxygenCommons.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\C:\Program Files\Oxygen XML Author 24\lib\oxygen-license.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\C:\dita-ot-3.7.3\target\classes from path as it doesn't exist
+ [pipeline] XsltModule processing took 935 ms
+
+transform.topic2fo.i18n.filter:
+dropping C:\Program Files\Oxygen XML Author 24\classes from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\lib\oxygen.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\lib\oxygenDeveloper.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\lib\oxygenEclipse.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\lib\oxygenAuthorEclipse.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\lib\oxygenDeveloperEclipse.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\lib\oxygenCommons.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\lib\oxygen-license.jar from path as it doesn't exist
+dropping C:\dita-ot-3.7.3\target\classes from path as it doesn't exist
+[available] Unable to find C:\dita-ot-3.7.3\plugins\org.dita.pdf2\Customization\fo\i18n\en.xml
+[available] Found: C:\dita-ot-3.7.3\plugins\org.dita.pdf2\cfg\fo\i18n\en.xml
+Override ignored for property "i18n.config.file"
+[i18n-preprocess] Processing file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/stage2.fo to file:/C:/Desktop%20-%20Personal/Training/Comtech_Publishing_DITA/dita-demo-content-collection/Thunderbird/temp/tbird-pdf/oxygen_dita_temp/topic.fo
+[i18n-preprocess] Loading stylesheet file:/C:/dita-ot-3.7.3/plugins/org.dita.pdf2/xsl/fo/i18n-postprocess.xsl
+dropping C:\Program Files\Oxygen XML Author 24\C:\Program Files\Oxygen XML Author 24\classes from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\C:\Program Files\Oxygen XML Author 24\lib\oxygen.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\C:\Program Files\Oxygen XML Author 24\lib\oxygenDeveloper.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\C:\Program Files\Oxygen XML Author 24\lib\oxygenEclipse.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\C:\Program Files\Oxygen XML Author 24\lib\oxygenAuthorEclipse.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\C:\Program Files\Oxygen XML Author 24\lib\oxygenDeveloperEclipse.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\C:\Program Files\Oxygen XML Author 24\lib\oxygenCommons.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\C:\Program Files\Oxygen XML Author 24\lib\oxygen-license.jar from path as it doesn't exist
+dropping C:\Program Files\Oxygen XML Author 24\C:\dita-ot-3.7.3\target\classes from path as it doesn't exist
+
+transform.topic2fo.i18n.no-filter:
+Skipped because property 'pdf2.i18n.skip' not set.
+
+transform.topic2fo.i18n:
+
+transform.topic2fo:
+
+transform.fo2pdf.xep:
+Skipped because property 'use.xep.pdf.formatter' not set.
+
+transform.fo2pdf.fop:
+    [mkdir] Skipping C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\out\tbird-pdf because it already exists.
+      [fop] [WARN] Font "Arial Unicode MS,normal,700" not found. Substituting with "Arial Unicode MS,normal,400".
+      [fop] [WARN] Font "SimSun,normal,700" not found. Substituting with "SimSun,normal,400".
+      [fop] [INFO] Rendered page #1.
+      [fop] [INFO] Rendered page #2.
+      [fop] [INFO] Rendered page #3.
+      [fop] [INFO] Rendered page #4.
+      [fop] [INFO] Rendered page #5.
+      [fop] [INFO] Rendered page #6.
+      [fop] [WARN] The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (See position 378:1160)
+      [fop] [WARN] The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (See position 378:2045)
+      [fop] [WARN] The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (See position 378:2899)
+      [fop] [WARN] The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (See position 378:3753)
+      [fop] [WARN] The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (See position 378:4601)
+      [fop] [WARN] The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (See position 378:5630)
+      [fop] [INFO] Rendered page #7.
+      [fop] [INFO] Rendered page #8.
+      [fop] C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\topic.fo -> C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\out\tbird-pdf\proposal_template.pdf
+[available] Found file: out\tbird-pdf\proposal_template.pdf
+
+transform.fo2pdf.ah:
+Skipped because property 'use.ah.pdf.formatter' not set.
+
+transform.fo2pdf:
+
+transform.topic2pdf:
+
+publish.map.pdf:
+  [antcall] Exiting C:\dita-ot-3.7.3\build.xml.
+
+topic2pdf2:
+Skipped because property 'noMap' not set.
+
+dita2pdf2:
+
+dita2tbird-pdf:
+
+clean-temp:
+   [delete] Deleting C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\.job.xml
+   [delete] Deleting C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\063fd3d1267651a67923000b50d041b66a67999a.dita
+   [delete] Deleting C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\24450557882318648508167cea6130a89c6786f3.ditamap
+   [delete] Deleting C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\4ca07de3af4f074c29f5e61036a35d7273f025c7.dita
+   [delete] Deleting C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\67769e35bb65d33adfb90daa03ded7d4c00df585.dita
+   [delete] Deleting C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\69551f081fb683504a1146f3b58b5242f69949a5.dita
+   [delete] Deleting C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\6de8c095ee6a8c038234ac59e3499b073d24ef68.dita
+   [delete] Deleting C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\7f98112a90acb2fa0b67522afac6178611d722be.dita
+   [delete] Deleting C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\8d17b455d2e7b4ac77b1e2fe557ba01d545693a0.dita
+   [delete] Deleting C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\Configuration\OpenTopic\cfg\common\artwork\ISO_7010_W001.svg
+   [delete] Deleting C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\Configuration\OpenTopic\cfg\common\artwork\hand.gif
+   [delete] Deleting C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\Configuration\OpenTopic\cfg\common\artwork\hand_rtl.gif
+   [delete] Deleting C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\Configuration\OpenTopic\cfg\common\artwork\warning.gif
+   [delete] Deleting C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\afb31f1d2a40c0c1fcbcca56e6f0526557cc3f4c.dita
+   [delete] Deleting C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\cfe8aa6996a2752bb9b41ea724249a74ae71d39f.dita
+   [delete] Deleting C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\d21a8980c2952edd825234d04cc6a47531b5833a.dita
+   [delete] Deleting C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\dd2923773a80ce4cf2680767abb73e56df4cd817.dita
+   [delete] Deleting C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\e667780d1cca5956710af56fa1fd54232a9d11a4.dita
+   [delete] Deleting C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\proposal_template_MERGED.xml
+   [delete] Deleting C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\relflagimage.list
+   [delete] Deleting C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\stage1.xml
+   [delete] Deleting C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\stage2.fo
+   [delete] Deleting C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\subject_scheme.dictionary
+   [delete] Deleting C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\subrelation.xml
+   [delete] Deleting C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\topic.fo
+   [delete] Deleting C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\usr.input.file.list
+   [delete] Deleting C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\Configuration\OpenTopic\cfg\common\artwork
+   [delete] Deleting C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\Configuration\OpenTopic\cfg\common
+   [delete] Deleting C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\Configuration\OpenTopic\cfg
+   [delete] Deleting C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\Configuration\OpenTopic
+   [delete] Deleting C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp\Configuration
+   [delete] Deleting C:\Desktop - Personal\Training\Comtech_Publishing_DITA\dita-demo-content-collection\Thunderbird\temp\tbird-pdf\oxygen_dita_temp
+  [antcall] Exiting C:\dita-ot-3.7.3\build.xml.
+
+BUILD SUCCESSFUL
+Total time: 6 seconds

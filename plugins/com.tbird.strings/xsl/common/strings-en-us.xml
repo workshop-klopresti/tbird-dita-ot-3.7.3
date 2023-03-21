@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This file is part of the DITA Open Toolkit project.
+
+Copyright 2004, 2005 IBM Corporation
+
+See the accompanying LICENSE file for applicable license.
+-->
+<?xml-model href="strings.rnc" type="application/relax-ng-compact-syntax"?>
+<variables>
+
+
+   <variable name="slogan">dymanic text</variable>
+   <variable name="copyright">Publishing for DITA</variable>
+   <variable name="address">2200 Mission College Blvd, Santa Clara, CA 95054</variable>
+
+   <variable id="task_context">About</variable>
+   <variable id="task_example">Example procedure</variable>
+   <variable id="task_postreq">Next Steps</variable>
+   <variable id="task_prereq">Before You Begin</variable>
+   <variable id="task_procedure"/>
+   <variable id="task_procedure_unordered"/>
+   <variable id="task_results">Expected Outcome</variable>
+   <!-- Fixed label for sections  -->
+   <!--   Q1: where is Section processed, need in order to affect section template -->
+   <!--   Q2: how are these strings inserted anywhere else -->
+   <!--   class attribute class="- topic/section task/context "-->
+   <variable id="section_label">THIS IS A SECTION</variable>
+   <variable id="header_label">string value: THIS IS A NEW HEADER!</variable>
+
+   <!-- codeblock string label  -->
+   <variable id="code_example">Code Example</variable>
+</variables>

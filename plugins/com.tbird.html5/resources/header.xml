@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- header for com.tbird.html5 output  -->
+<!-- lives in com.tbird.html5/resources  -->
+
+<div class="header">
+    <div class="header-content">
+        <img src="../resources/tbird_logo.png"></img>
+        <p>static value: Our content is the best!</p>
+    </div>
+</div>

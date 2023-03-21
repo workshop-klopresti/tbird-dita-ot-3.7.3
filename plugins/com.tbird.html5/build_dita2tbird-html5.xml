@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 2022-10-20 klopresti  -->
+<!-- DITA Publishing Course Materials Session 4 -->
+<!-- build.xml—invokes build, contains parameters -->
+<project name="dita2tbird-html5">
+
+  <!-- dita2html5 is out of the box, follows all custom targets -->
+  <target name="dita2tbird-html5" depends="tbird-copy, tbird-html5.init, dita2html5"/>
+
+  <target name="tbird-html5.init">
+    <!-- klopresti 2022-11-07 BUILD PARAMETERS -->
+    <!--  Copy the CSS file in use to the output folder, Yes or No
+    Tells the OT that a custom CSS file is being used, and to copy it to the output folder -->
+    <property name="args.copycss" value="yes"/>
+
+    <!--  location of custom CSS, filepath, Tells the OT where to find custom CSS file
+     (or variable for directory of resources that can be reused in other places) -->
+    <property name="args.cssroot"
+      value="${dita.plugin.com.tbird.html5.dir}${file.separator}resources"/>
+
+    <!--   name of custom CSS, name.css, Tells the OT what custom CSS file is called -->
+    <property name="args.css" value="tbird_ltr.css"/>
+
+    <!--  Output CSS file location, filepath, Tells the OT where to put custom CSS file after publishing 
+    Specifies the location of a copied .css file relative to the output directory. -->
+    <property name="args.csspath" value="css"/>
+
+    <!-- Navigation -->
+    <property name="nav-toc" value="full"/>
+
+    <!-- Page Headers and Footers (static, same every time) -->
+    <property name="args.hdr" value="${args.cssroot}${file.separator}header.xml"/>
+    <property name="args.ftr" value="${args.cssroot}${file.separator}footer.xml"/>
+    <!-- Points to an XML file that contains content to be placed in <head> -->
+    <property name="args.hdf" value="${args.cssroot}${file.separator}head-scripts.xml"/>
+    <!--  Task Topic titles (prereq, postreq)  -->
+    <property name="args.gen.task.lbl" value="YES"> </property>
+
+
+  </target>
+
+  <!-- Copy image to the output directory -->
+
+  <target name="tbird-copy">
+    <copy
+      file="${dita.plugin.com.tbird.html5.dir}${file.separator}resources${file.separator}tbird_logo.png"
+      todir="${output.dir}${file.separator}resources"/>
+  </target>
+
+</project>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<project name="dita2tbird-pdf">
+  
+  <target name="dita2tbird-pdf" depends="dita2tbird-pdf.init, dita2pdf2" />
+  
+  <target name="dita2tbird-pdf.init">
+    <!-- PDF-specific -->    
+    <!-- Shell file to call in template overrides -->
+    <property name="args.xsl.pdf" location="${dita.plugin.com.tbird.pdf.dir}/xsl/fo/tbird_topic2fo.xsl"/>
+    <!-- Generate chapter-level table of contents -->
+    <property name="args.chapter.layout" value="BASIC"/>
+    <!-- Collapsed or open PDF bookmarks -->
+    <property name="args.bookmark.style" value="COLLAPSED"/>
+    <!-- Retain bookmap order -->
+    <property name="args.bookmap-order" value="discard"/>
+    
+    <!-- Any output format -->
+    <!-- Generate task labels -->
+    <property name="args.gen.task.lbl" value="YES"/>
+    <!-- Generate related links -->
+    <property name="args.rellinks" value="none"/>
+    <!-- Specifies figure reference link style -->
+    <property name="args.figurelink.style" value="NUMTITLE"/>
+    <!-- Specifies table reference link style -->
+    <property name="args.tablelink.style" value="NUMTITLE"/>
+  </target>
+  
+</project>

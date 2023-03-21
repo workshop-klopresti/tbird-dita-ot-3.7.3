@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="dita-ot/plugin.rnc" type="application/relax-ng-compact-syntax"?>
+
+<!-- 2022-10-20 klopresti  -->
+<!-- DITA Publishing Course Materials Session 4 -->
+<!-- plugin.xml—declares transtype, installs plug-in into base OT, contains extension points -->
+
+<plugin id="com.tbird.html5">
+    <require plugin="org.dita.html5"/>
+    <transtype name="tbird-html5" extends="html5" desc="TBird HTML5 training"/>
+    <feature extension="ant.import" file="build_dita2tbird-html5.xml"/>
+    <!--    Adding XSLT template overrides-->
+    <!--    XSL shell to import all template files-->
+    <!--    Uses an extension point-->
+    <feature extension="dita.xsl.html5" file="xsl/dita2tbird-html5.xsl"/>
+</plugin>

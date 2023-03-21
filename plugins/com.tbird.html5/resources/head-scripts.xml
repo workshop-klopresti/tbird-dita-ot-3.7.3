@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    Use a class attribute to apply JavaScript 
+    Display section elements as accordions. 
+    Use outputclass on desired section elements.
+    code.jquery.com connects to the javascript libraries
+-->
+
+<div>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"/>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"/>
+    <script> $(document).ready(function() { $(".accordion").accordion({collapsible: true, active:
+        false}); }); </script>
+
+</div>

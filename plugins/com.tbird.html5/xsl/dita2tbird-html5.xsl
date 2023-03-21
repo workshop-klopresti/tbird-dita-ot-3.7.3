@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs" version="2.0">
+
+
+    <!--TBird XSLT templates that change behavior of DITA elements in HTML output-->
+    <xsl:import href="plugin:com.tbird.html5:xsl/tbird_hazard-d.xsl"/>
+    <xsl:import href="plugin:com.tbird.html5:xsl/tbird_pr-d.xsl"/>
+    <xsl:import href="plugin:com.tbird.html5:xsl/tbird_task.xsl"/>
+    <xsl:import href="plugin:com.tbird.html5:xsl/tbird_topic.xsl"/>
+    
+</xsl:stylesheet>

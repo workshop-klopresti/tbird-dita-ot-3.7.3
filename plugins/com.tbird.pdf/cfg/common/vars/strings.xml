@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This file is part of the DITA Open Toolkit project.
+
+Copyright 2014 Jarno Elovirta
+
+See the accompanying LICENSE file for applicable license.
+-->
+<langlist>
+<!--  <lang filename="commonvariables.xml" xml:lang=""/>
+-->  <lang filename="tbird_strings.xml" xml:lang="en"/>
+</langlist>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+This file is part of the DITA Open Toolkit project.
+
+Copyright 2004, 2005 IBM Corporation
+
+See the accompanying LICENSE file for applicable license.
+-->
+<langlist>
+
+  <lang xmlns:dita="http://dita-ot.sourceforge.net" xml:lang="" filename="strings-common.xml"/>
+  <!-- Text values of strings live in files assigned to a particular language -->
+
+  <lang xml:lang="en" filename="strings-en-us.xml"/>
+  <lang xml:lang="en-ca" filename="strings-en-us.xml"/>
+  <lang xml:lang="en-gb" filename="strings-en-us.xml"/>
+  <lang xml:lang="en-us" filename="strings-en-us.xml"/>
+
+
+</langlist>
