@@ -6,8 +6,8 @@
     xmlns:opentopic-func="http://www.idiominc.com/opentopic/exsl/function"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-    <!-- DEFINITION LIST -->
-    <!-- Changed dl from a table (tabs) to stacked headings one block for the dl, one block for dentry, one for dt and dd -->
+    <!-- DEFINITION LIST STACKED -->
+    <!--<!-\- Changed dl from a table (tabs) to stacked headings one block for the dl, one block for dentry, one for dt and dd -\->
     <xsl:template match="*[contains(@class, ' topic/dl ')]">
         <xsl:apply-templates select="*[contains(@class, ' ditaot-d/ditaval-startprop ')]"
             mode="outofline"/>
@@ -19,13 +19,13 @@
             mode="outofline"/>
     </xsl:template>
   
-  <!-- DEFINITION HEAD -->
-    <!-- Supress definition list head -->
+  <!-\- DEFINITION HEAD -\->
+    <!-\- Supress definition list head -\->
     <xsl:template match="*[contains(@class, ' topic/dl ')]/*[contains(@class, ' topic/dlhead ')]"/>
   
   
-  <!-- DEFINITION ENTRY -->
-  <!-- Changed entry from table row to block -->
+  <!-\- DEFINITION ENTRY -\->
+  <!-\- Changed entry from table row to block -\->
    <xsl:template match="*[contains(@class, ' topic/dlentry ')]">
         <fo:block xsl:use-attribute-sets="dlentry">
             <xsl:call-template name="commonattributes"/>
@@ -33,8 +33,8 @@
         </fo:block>
     </xsl:template>
 
-  <!-- DEFINITION TERM -->
-    <!-- Changed definition term bold and bulleted -->
+  <!-\- DEFINITION TERM -\->
+    <!-\- Changed definition term bold and bulleted -\->
     <xsl:template match="*[contains(@class, ' topic/dt ')]">
         <fo:block xsl:use-attribute-sets="dlentry.dt__content">
             <xsl:if test="not(preceding-sibling::*[contains(@class, ' topic/dt ')])">
@@ -45,9 +45,9 @@
         </fo:block>
     </xsl:template>
 
-    <!-- Changed definition term bold and bulleted -->
+    <!-\- Changed definition term bold and bulleted -\->
 
-  <!-- DEFINITION DESCRIPTION -->
+  <!-\- DEFINITION DESCRIPTION -\->
     <xsl:template match="*[contains(@class, ' topic/dd ')]">
         <fo:block xsl:use-attribute-sets="dlentry.dd__content">
             <xsl:call-template name="commonattributes"/>
@@ -58,9 +58,11 @@
             </xsl:if>
         </fo:block>
     </xsl:template>
+    -->
     
+  <!-- DEFINITION LIST BULLETS -->    
     <!-- use these for definition list as bulleted list -->
-   <!-- <xsl:template match="*[contains(@class, ' topic/dl ')]">
+    <xsl:template match="*[contains(@class, ' topic/dl ')]">
     <xsl:apply-templates select="*[contains(@class,' ditaot-d/ditaval-startprop ')]" mode="outofline"/>
     <fo:list-block xsl:use-attribute-sets="dl-list">
       <xsl:call-template name="commonattributes"/>
@@ -105,6 +107,6 @@
           mode="outofline"/>
       </xsl:if>
     </fo:block>
-  </xsl:template>-->
+  </xsl:template>
 
 </xsl:stylesheet>

@@ -33,14 +33,14 @@ See the accompanying LICENSE file for applicable license.
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:fo="http://www.w3.org/1999/XSL/Format" version="2.0">
 
-   
-  <xsl:attribute-set name="dlentry.dd__content" use-attribute-sets="common.table.body.entry">
+  <!-- DEFINITION LIST STACKED DEFINITION DESCRIPTION --> 
+<!--  <xsl:attribute-set name="dlentry.dd__content" use-attribute-sets="common.table.body.entry">
     <xsl:attribute name="start-indent">10mm</xsl:attribute>
-  </xsl:attribute-set>
+  </xsl:attribute-set>-->
  
  
   <!-- use these for definition list as bulleted list -->
-  <!--<xsl:attribute-set name="dl-list" use-attribute-sets="ul">
+  <xsl:attribute-set name="dl-list" use-attribute-sets="ul">
   </xsl:attribute-set> 
   <xsl:attribute-set name="dlentry" use-attribute-sets="ul.li">
   </xsl:attribute-set> 
@@ -55,9 +55,10 @@ See the accompanying LICENSE file for applicable license.
   <xsl:attribute-set name="dt">   
     <xsl:attribute name="font-weight">bold</xsl:attribute>
     <xsl:attribute name="keep-with-next.within-page">always</xsl:attribute>
-    <xsl:attribute name="start-indent">from-parent(start-indent)+<xsl:value-of select="$side-col-width"/></xsl:attribute>
   </xsl:attribute-set> 
   <xsl:attribute-set name="dd">   
+<!--    <xsl:attribute name="start-indent">from-parent(start-indent)+<xsl:value-of select="$side-col-width"/></xsl:attribute>
+-->    
   </xsl:attribute-set>
--->
+
 </xsl:stylesheet>
