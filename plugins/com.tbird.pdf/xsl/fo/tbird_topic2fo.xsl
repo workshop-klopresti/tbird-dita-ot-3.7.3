@@ -61,6 +61,7 @@ See the accompanying LICENSE file for applicable license.
     
     <xsl:import href="plugin:org.dita.pdf2:cfg/fo/attrs/lists-attr.xsl"/>
     <xsl:import href="plugin:org.dita.pdf2:xsl/fo/lists.xsl"/>
+    <xsl:import href="plugin:com.tbird.pdf:xsl/fo/tbird_lists.xsl"/>
     
     <xsl:import href="plugin:org.dita.pdf2:cfg/fo/attrs/tables-attr.xsl"/>
     <xsl:import href="plugin:org.dita.pdf2.fop:cfg/fo/attrs/tables-attr_fop.xsl"/>
@@ -75,12 +76,14 @@ See the accompanying LICENSE file for applicable license.
     
     <xsl:import href="plugin:org.dita.pdf2:cfg/fo/attrs/topic-attr.xsl"/>
     <xsl:import href="plugin:org.dita.pdf2.fop:xsl/fo/topic_fop.xsl"/>
+    <xsl:import href="plugin:com.tbird.pdf:xsl/fo/tbird_topic.xsl"/>
     
     <xsl:import href="plugin:org.dita.pdf2:cfg/fo/attrs/concept-attr.xsl"/>
     
     <xsl:import href="plugin:org.dita.pdf2:cfg/fo/attrs/commons-attr.xsl"/>
     <xsl:import href="plugin:org.dita.pdf2.fop:cfg/fo/attrs/commons-attr_fop.xsl"/>
     <xsl:import href="plugin:org.dita.pdf2:xsl/fo/commons.xsl"/>
+    <xsl:import href="plugin:com.tbird.pdf:xsl/fo/tbird_commons.xsl"/>
     
     <xsl:import href="plugin:org.dita.pdf2:cfg/fo/attrs/toc-attr.xsl"/>
     <xsl:import href="plugin:org.dita.pdf2:xsl/fo/toc.xsl"/>
@@ -109,7 +112,9 @@ See the accompanying LICENSE file for applicable license.
     <xsl:import href="plugin:org.dita.pdf2:xsl/fo/sw-domain.xsl"/>
     
     <xsl:import href="plugin:org.dita.pdf2:cfg/fo/attrs/pr-domain-attr.xsl"/>
+    <xsl:import href="plugin:com.tbird.pdf:cfg/fo/attrs/tbird_pr-domain-attr.xsl"/>
     <xsl:import href="plugin:org.dita.pdf2:xsl/fo/pr-domain.xsl"/>
+    <xsl:import href="plugin:com.tbird.pdf:xsl/fo/tbird_pr-domain.xsl"/>
     
     <xsl:import href="plugin:org.dita.pdf2:cfg/fo/attrs/hi-domain-attr.xsl"/>
     <xsl:import href="plugin:org.dita.pdf2:xsl/fo/hi-domain.xsl"/>
@@ -134,7 +139,9 @@ See the accompanying LICENSE file for applicable license.
     <xsl:import href="plugin:org.dita.pdf2:xsl/fo/hazard-d.xsl"/>
     
     <xsl:import href="plugin:org.dita.pdf2:cfg/fo/attrs/static-content-attr.xsl"/>
+    <xsl:import href="plugin:com.tbird.pdf:cfg/fo/attrs/tbird_static-content-attr.xsl"/>
     <xsl:import href="plugin:org.dita.pdf2:xsl/fo/static-content.xsl"/>
+    <xsl:import href="plugin:com.tbird.pdf:xsl/fo/tbird_static-content.xsl"/>
     
     <xsl:import href="plugin:org.dita.pdf2:cfg/fo/attrs/glossary-attr.xsl"/>
     <xsl:import href="plugin:org.dita.pdf2:xsl/fo/glossary.xsl"/>

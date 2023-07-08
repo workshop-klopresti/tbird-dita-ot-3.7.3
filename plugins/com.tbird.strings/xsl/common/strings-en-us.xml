@@ -30,4 +30,5 @@ See the accompanying LICENSE file for applicable license.
 
    <!-- codeblock string label  -->
    <variable id="code_example">Code Example</variable>
+   <str name="draft">DRAFT</str>
 </variables>

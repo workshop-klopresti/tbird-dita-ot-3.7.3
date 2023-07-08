@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<vars xmlns="http://www.idiominc.com/opentopic/vars">
+    
+    <variable id="Checklist List bullet">&#x2610;</variable>
+    
+    <!-- The header that appears on odd-numbered pages. -->
+    <variable id="Body odd header"><param ref-name="prodname"/> | <param ref-name="heading"/> | <param ref-name="pagenum"/></variable>
+    
+    <!-- The header that appears on even-numbered pages. -->
+    <variable id="Body even header"><param ref-name="pagenum"/> | <param ref-name="heading"/> | <param ref-name="prodname"/></variable>
+    
+</vars>

@@ -5,6 +5,8 @@
   
   <target name="dita2tbird-pdf.init">
     <!-- PDF-specific -->    
+    <!-- Location of customization directory (where logo graphic is stored)-->
+    <property location="${dita.plugin.com.tbird.pdf.dir}/cfg" name="customization.dir"/>
     <!-- Shell file to call in template overrides -->
     <property name="args.xsl.pdf" location="${dita.plugin.com.tbird.pdf.dir}/xsl/fo/tbird_topic2fo.xsl"/>
     <!-- Generate chapter-level table of contents -->
