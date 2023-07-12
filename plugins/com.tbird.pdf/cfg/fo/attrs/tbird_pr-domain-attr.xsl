@@ -35,25 +35,43 @@ See the accompanying LICENSE file for applicable license.
 
     <xsl:attribute-set name="codeph">
         <xsl:attribute name="font-family">monospace</xsl:attribute>
-        <xsl:attribute name="color">blue</xsl:attribute>
+        <xsl:attribute name="font-size">10pt</xsl:attribute>
+        <xsl:attribute name="color">black</xsl:attribute>
+        <xsl:attribute name="font-weight">normal</xsl:attribute>
+        <xsl:attribute name="font-style">normal</xsl:attribute>
+        <xsl:attribute name="background-color">#e0e0e0</xsl:attribute>
+
     </xsl:attribute-set>
-    
+
     <xsl:attribute-set name="codeblock-label" use-attribute-sets="section.title">
         <xsl:attribute name="keep-together.within-page">always</xsl:attribute>
-        <xsl:attribute name="padding">6pt</xsl:attribute>
-        <xsl:attribute name="background-color">red</xsl:attribute>
+
     </xsl:attribute-set>
 
     <xsl:attribute-set name="codeblock-content" use-attribute-sets="pre">
-        <xsl:attribute name="keep-with-previous.within-page">always</xsl:attribute>
-        <xsl:attribute name="start-indent">6pt + from-parent(start-indent)</xsl:attribute>
-        <xsl:attribute name="end-indent">6pt + from-parent(end-indent)</xsl:attribute>
-        <xsl:attribute name="padding">6pt</xsl:attribute>
-        <xsl:attribute name="background-color">#63a3b0</xsl:attribute>
-        <xsl:attribute name="wrap-option">wrap</xsl:attribute>
-        <xsl:attribute name="hyphenation-character">&#x25BA;</xsl:attribute>
+        <xsl:attribute name="font-family">monospace</xsl:attribute>
+        <xsl:attribute name="font-size">10pt</xsl:attribute>
+        <xsl:attribute name="color">black</xsl:attribute>
+        <xsl:attribute name="font-weight">normal</xsl:attribute>
+        <xsl:attribute name="font-style">normal</xsl:attribute>
+        <xsl:attribute name="text-decoration">none</xsl:attribute>
+        <xsl:attribute name="space-before">6pt</xsl:attribute>
+        <xsl:attribute name="space-after">6pt</xsl:attribute>
+        <xsl:attribute name="text-align">start</xsl:attribute>
+        <xsl:attribute name="start-indent">from-parent(start-indent) + 0.25in</xsl:attribute>
+        <xsl:attribute name="line-height">1.2</xsl:attribute>
+        <xsl:attribute name="background-color">#e0e0e0</xsl:attribute>
+        <xsl:attribute name="end-indent">from-parent(end-indent) + 0pt</xsl:attribute>
+        <xsl:attribute name="padding-top">6pt</xsl:attribute>
+        <xsl:attribute name="padding-right">6pt</xsl:attribute>
+        <xsl:attribute name="padding-bottom">6pt</xsl:attribute>
+        <xsl:attribute name="padding-left">6pt</xsl:attribute>
+        <!--        Wrap inserts line break character
+-->
+        <!--        <xsl:attribute name="wrap-option">wrap</xsl:attribute>
+        <xsl:attribute name="hyphenation-character">&#x25BA;</xsl:attribute>-->
     </xsl:attribute-set>
-  
- 
+
+
 
 </xsl:stylesheet>

@@ -88,7 +88,7 @@ See the accompanying LICENSE file for applicable license.
     </xsl:attribute-set>
 
     <xsl:attribute-set name="__fo__root" use-attribute-sets="base-font">
-        <xsl:attribute name="font-family">serif</xsl:attribute>
+      <xsl:attribute name="font-family">sans-serif</xsl:attribute>
         <!-- TODO: https://issues.apache.org/jira/browse/FOP-2409 -->
         <xsl:attribute name="xml:lang" select="translate($locale, '_', '-')"/>
         <xsl:attribute name="writing-mode" select="$writing-mode"/>

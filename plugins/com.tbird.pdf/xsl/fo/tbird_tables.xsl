@@ -62,6 +62,7 @@
     
   <!-- DEFINITION LIST BULLETS -->    
     <!-- use these for definition list as bulleted list -->
+<!-- 
     <xsl:template match="*[contains(@class, ' topic/dl ')]">
     <xsl:apply-templates select="*[contains(@class,' ditaot-d/ditaval-startprop ')]" mode="outofline"/>
     <fo:list-block xsl:use-attribute-sets="dl-list">
@@ -98,6 +99,51 @@
       <xsl:apply-templates/>
     </fo:block>
   </xsl:template>  
+  <xsl:template match="*[contains(@class, ' topic/dd ')]">
+    <fo:block xsl:use-attribute-sets="dd">
+      <xsl:call-template name="commonattributes"/>
+      <xsl:apply-templates/>
+      <xsl:if test="not(following-sibling::*[contains(@class, ' topic/dd ')])">
+        <xsl:apply-templates select="../*[contains(@class, ' ditaot-d/ditaval-endprop ')]"
+          mode="outofline"/>
+      </xsl:if>
+    </fo:block>
+  </xsl:template>
+  -->
+
+  <!-- DEFINITION LIST PARAGRAPHS -->
+  <!-- use these for dl to be a series of paragraphs (see tbird_tables-attr.xsl) -->
+  <xsl:template match="*[contains(@class, ' topic/dl ')]">
+    <xsl:apply-templates select="*[contains(@class, ' ditaot-d/ditaval-startprop ')]"
+      mode="outofline"/>
+    <fo:block xsl:use-attribute-sets="dl-block">
+      <xsl:call-template name="commonattributes"/>
+      <xsl:apply-templates/>
+    </fo:block>
+    <xsl:apply-templates select="*[contains(@class, ' ditaot-d/ditaval-endprop ')]" mode="outofline"
+    />
+  </xsl:template>
+  <xsl:template match="*[contains(@class, ' topic/dl ')]/*[contains(@class, ' topic/dlhead ')]"/>
+  <xsl:template match="*[contains(@class, ' topic/dlentry ')]">
+    <fo:block xsl:use-attribute-sets="dlentry">
+      <xsl:call-template name="commonattributes"/>
+      <xsl:apply-templates/>
+    </fo:block>
+  </xsl:template>
+  <xsl:template match="*[contains(@class, ' topic/dt ')]">
+    <fo:block xsl:use-attribute-sets="dt">
+      <xsl:call-template name="commonattributes"/>
+      <xsl:if test="not(preceding-sibling::*[contains(@class, ' topic/dt ')])">
+        <xsl:apply-templates select="../*[contains(@class, ' ditaot-d/ditaval-startprop ')]"
+          mode="outofline"/>
+      </xsl:if>
+      
+<!--      <xsl:call-template name="getVariable">
+        <xsl:with-param name="id" select="'Definition list separator'"/>
+      </xsl:call-template>-->
+      <xsl:apply-templates/>
+    </fo:block>
+  </xsl:template>
   <xsl:template match="*[contains(@class, ' topic/dd ')]">
     <fo:block xsl:use-attribute-sets="dd">
       <xsl:call-template name="commonattributes"/>

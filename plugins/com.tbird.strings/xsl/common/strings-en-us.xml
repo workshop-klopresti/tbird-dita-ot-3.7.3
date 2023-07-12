@@ -12,7 +12,7 @@ See the accompanying LICENSE file for applicable license.
 
    <variable name="slogan">dymanic text</variable>
    <variable name="copyright">Publishing for DITA</variable>
-   <variable name="address">2200 Mission College Blvd, Santa Clara, CA 95054</variable>
+   <variable name="address">1600 Pennsylvania Avenue NW, Washington, DC 20500</variable>
 
    <variable id="task_context">About</variable>
    <variable id="task_example">Example procedure</variable>

@@ -823,7 +823,7 @@ See the accompanying LICENSE file for applicable license.
   <!-- Add any messages defined by plugins. -->
   
   
-  <message id="DOTA066F" type="FATAL">
+  <message xmlns:dita="http://dita-ot.sourceforge.net" id="DOTA066F" type="FATAL">
     <reason>Cannot find the user specified XSLT stylesheet '%1'.</reason>
     <response/>
   </message>

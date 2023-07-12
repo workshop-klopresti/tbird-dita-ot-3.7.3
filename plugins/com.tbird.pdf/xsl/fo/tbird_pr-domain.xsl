@@ -60,6 +60,6 @@
         </fo:block>
     </xsl:template>
 
-    <xsl:variable name="codeblock.wrap" select="true()"/>
+    <!--<xsl:variable name="codeblock.wrap" select="true()"/>-->
 
 </xsl:stylesheet>

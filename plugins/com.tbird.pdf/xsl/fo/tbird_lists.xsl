@@ -47,10 +47,13 @@ See the accompanying LICENSE file for applicable license.
                         <xsl:when test="ancestor::*[contains(@class, ' topic/ul ')][contains(@outputclass, 'checklist')]">
                             <xsl:call-template name="getVariable">
                                 <xsl:with-param name="id"
-                                    select="'Checklist List bullet'"
-                                />
+                                    select="'Checklist List bullet'">
+                                </xsl:with-param>
+
                             </xsl:call-template>
+                           
                         </xsl:when>
+                        
                         <xsl:otherwise>
                             <xsl:call-template name="getVariable">
                                 <xsl:with-param name="id"

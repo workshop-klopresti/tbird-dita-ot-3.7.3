@@ -27,7 +27,7 @@ with those set forth herein.
 
 This file is part of the DITA Open Toolkit project. 
 See the accompanying LICENSE file for applicable license.
---><xsl:stylesheet xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:opentopic-i18n="http://www.idiominc.com/opentopic/i18n" xmlns:x="adobe:ns:meta/" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0" exclude-result-prefixes="opentopic-i18n x">
+--><xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:opentopic-i18n="http://www.idiominc.com/opentopic/i18n" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:x="adobe:ns:meta/" version="2.0" exclude-result-prefixes="opentopic-i18n x">
 
   <xsl:import href="plugin:org.dita.base:xsl/common/dita-utilities.xsl"/>
   <xsl:import href="plugin:org.dita.base:xsl/common/output-message.xsl"/>
