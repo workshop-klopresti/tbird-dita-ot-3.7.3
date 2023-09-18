@@ -5,7 +5,7 @@
   xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:opentopic="http://www.idiominc.com/opentopic"
   xmlns:opentopic-func="http://www.idiominc.com/opentopic/exsl/function"
   xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-  
+
   <xsl:template match="*" mode="processTopicChapterInsideFlow">
     <fo:block xsl:use-attribute-sets="topic">
       <xsl:call-template name="commonattributes"/>
@@ -14,21 +14,22 @@
       </xsl:variable>
       <xsl:if test="$level eq 1">
         <fo:marker marker-class-name="current-topic-number">
-          <xsl:variable name="topicref" select="key('map-id', ancestor-or-self::*[contains(@class, ' topic/topic ')][1]/@id)"/>
+          <xsl:variable name="topicref"
+            select="key('map-id', ancestor-or-self::*[contains(@class, ' topic/topic ')][1]/@id)"/>
           <xsl:for-each select="$topicref">
             <xsl:apply-templates select="." mode="topicTitleNumber"/>
           </xsl:for-each>
         </fo:marker>
         <xsl:apply-templates select="." mode="insertTopicHeaderMarker"/>
       </xsl:if>
-      
+
       <xsl:apply-templates select="*[contains(@class,' topic/prolog ')]"/>
-      
+
       <xsl:apply-templates select="." mode="insertChapterFirstpageStaticContent">
         <xsl:with-param name="type" select="'chapter'"/>
       </xsl:apply-templates>
-      
-      <!-- use this block if chapter prefix is inline with title --> 
+
+      <!-- use this block if chapter prefix is inline with title -->
       <!--<fo:block xsl:use-attribute-sets="topic.title">
         <xsl:call-template name="pullPrologIndexTerms"/>
         <xsl:call-template name="getVariable">
@@ -43,18 +44,19 @@
           <xsl:apply-templates select="." mode="getTitle"/>
         </xsl:for-each>
       </fo:block>-->
-      
-      <!-- use this block if chapter prefix is going to be a header before title -->
-      <fo:block xsl:use-attribute-sets="topic.title">
+
+      <!-- use this block if title is separate from chapter prefix (header) -->
+      <!--      <fo:block xsl:use-attribute-sets="topic.title">
         <xsl:call-template name="pullPrologIndexTerms"/>
         <xsl:for-each select="*[contains(@class,' topic/title ')]">
           <xsl:apply-templates select="." mode="getTitle"/>
         </xsl:for-each>
-      </fo:block>
-      
+      </fo:block>-->
+
       <xsl:choose>
         <xsl:when test="$chapterLayout='BASIC'">
-          <xsl:apply-templates select="*[not(contains(@class, ' topic/topic ') or contains(@class, ' topic/title ') or
+          <xsl:apply-templates
+            select="*[not(contains(@class, ' topic/topic ') or contains(@class, ' topic/title ') or
             contains(@class, ' topic/prolog '))]"/>
           <!--xsl:apply-templates select="." mode="buildRelationships"/-->
         </xsl:when>
@@ -62,12 +64,12 @@
           <xsl:apply-templates select="." mode="createMiniToc"/>
         </xsl:otherwise>
       </xsl:choose>
-      
+
       <xsl:apply-templates select="*[contains(@class,' topic/topic ')]"/>
       <xsl:call-template name="pullPrologIndexTerms.end-range"/>
     </fo:block>
   </xsl:template>
-  
+
   <xsl:template match="*" mode="insertChapterFirstpageStaticContent">
     <xsl:param name="type" as="xs:string"/>
     <fo:block>
@@ -76,14 +78,23 @@
       </xsl:attribute>
       <xsl:choose>
         <xsl:when test="$type = 'chapter'">
-          <!-- remove this block if chapter prefix is inline with title -->
           <fo:block xsl:use-attribute-sets="__chapter__frontmatter__name__container">
             <xsl:call-template name="getVariable">
               <xsl:with-param name="id" select="'Chapter with number'"/>
               <xsl:with-param name="params">
                 <number>
+                  <!-- fo:inline chapter prefix is inline with title -->
+                  <!-- fo:block chapter prefix is on separate line -->
                   <fo:inline xsl:use-attribute-sets="__chapter__frontmatter__number__container">
                     <xsl:apply-templates select="key('map-id', @id)[1]" mode="topicTitleNumber"/>
+                  </fo:inline>
+                  <!-- 
+                    add topic title to chapter heading
+                    use this block if title and chapter prefix are on the same line
+                  -->
+                  <xsl:text>: </xsl:text>
+                  <fo:inline xsl:use-attribute-sets="topic.title">
+                    <xsl:value-of select="*[contains(@class, ' topic/title ')]"/>
                   </fo:inline>
                 </number>
               </xsl:with-param>
@@ -96,9 +107,11 @@
               <xsl:with-param name="id" select="'Appendix with number'"/>
               <xsl:with-param name="params">
                 <number>
-                  <fo:block xsl:use-attribute-sets="__chapter__frontmatter__number__container">
+                  <!-- fo:inline appendix prefix is inline with title -->
+                  <!-- fo:block appendix prefix is on separate line -->
+                  <fo:inline xsl:use-attribute-sets="__chapter__frontmatter__number__container">
                     <xsl:apply-templates select="key('map-id', @id)[1]" mode="topicTitleNumber"/>
-                  </fo:block>
+                  </fo:inline>
                 </number>
               </xsl:with-param>
             </xsl:call-template>
@@ -110,6 +123,8 @@
               <xsl:with-param name="id" select="'Appendix with number'"/>
               <xsl:with-param name="params">
                 <number>
+                  <!-- fo:inline appendix prefix is inline with title -->
+                  <!-- fo:block appendix prefix is on separate line -->
                   <fo:block xsl:use-attribute-sets="__chapter__frontmatter__number__container">
                     <xsl:text>&#xA0;</xsl:text>
                   </fo:block>
@@ -124,6 +139,8 @@
               <xsl:with-param name="id" select="'Part with number'"/>
               <xsl:with-param name="params">
                 <number>
+                  <!-- fo:inline appendix prefix is inline with title -->
+                  <!-- fo:block appendix prefix is on separate line -->
                   <fo:block xsl:use-attribute-sets="__chapter__frontmatter__number__container">
                     <xsl:apply-templates select="key('map-id', @id)[1]" mode="topicTitleNumber"/>
                   </fo:block>
@@ -150,8 +167,8 @@
     </fo:block>
   </xsl:template>
 
-  <!-- prefix page numbers (not compatible with Apache FOP --> 
-  <xsl:template name="startPageNumbering">   
+  <!-- prefix page numbers (not compatible with Apache FOP -->
+  <xsl:template name="startPageNumbering">
     <!--<xsl:variable as="xs:string" name="topicType">
       <xsl:call-template name="determineTopicType" />
     </xsl:variable>
@@ -173,7 +190,7 @@
           </fo:folio-prefix>
         </xsl:when>
       </xsl:choose>
-    </xsl:for-each>-->    
+    </xsl:for-each>-->
   </xsl:template>
-  
+
 </xsl:stylesheet>

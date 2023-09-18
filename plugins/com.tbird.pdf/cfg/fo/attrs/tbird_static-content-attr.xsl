@@ -54,18 +54,18 @@
     </xsl:attribute-set>
     
     <xsl:attribute-set name="__chapter__frontmatter__name__container">
-        <xsl:attribute name="font-size">36pt</xsl:attribute>
+        <xsl:attribute name="font-size">18pt</xsl:attribute>
         <xsl:attribute name="font-weight">bold</xsl:attribute>
         <xsl:attribute name="border-before-style">none</xsl:attribute>
-        <xsl:attribute name="border-after-style">none</xsl:attribute>
-        <xsl:attribute name="border-before-width">2pt</xsl:attribute>
+        <xsl:attribute name="border-after-style">solid</xsl:attribute>
+        <xsl:attribute name="border-before-width">0pt</xsl:attribute>
         <xsl:attribute name="border-after-width">2pt</xsl:attribute>
         <xsl:attribute name="padding-top">10pt</xsl:attribute>
         <xsl:attribute name="space-after">20pt</xsl:attribute>
     </xsl:attribute-set>
     
     <xsl:attribute-set name="__chapter__frontmatter__number__container">
-        <xsl:attribute name="font-size">36pt</xsl:attribute>
+        <xsl:attribute name="font-size">18pt</xsl:attribute>
         <xsl:attribute name="font-weight">bold</xsl:attribute>
     </xsl:attribute-set>
     

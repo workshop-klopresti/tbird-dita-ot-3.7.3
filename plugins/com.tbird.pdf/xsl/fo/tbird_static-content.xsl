@@ -7,11 +7,11 @@
   xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <xsl:template name="header">
-    <fo:block-container xsl:use-attribute-sets="header-logo-container">
+<!--    <fo:block-container xsl:use-attribute-sets="header-logo-container">
       <fo:block>
         <fo:external-graphic src="url('Customization/OpenTopic/common/artwork/logoipsum-285.svg')" xsl:use-attribute-sets="header-logo"/>
       </fo:block>
-    </fo:block-container>
+    </fo:block-container>-->
     <fo:block xsl:use-attribute-sets="__body__odd__header">
       <xsl:call-template name="getVariable">
         <xsl:with-param name="id" select="'Body odd header'"/>

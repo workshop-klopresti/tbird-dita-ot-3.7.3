@@ -10,7 +10,8 @@
     <!-- Declare transformation type and any extensions -->
     <!-- @name (ID) has no requirements beyond no spaces or special characters -->
     <!-- @name should match target @name in build file @name="dita2tbird-pdf"  -->
-    <!-- @extends this plugin is an extension of an out-of-the box transtype. Tells Open Toolkit that any info it knows about 'pdf2' transype applies here and then some -->
+    <!-- @extends this plugin is an extension of an out-of-the box transtype. 
+        Tells Open Toolkit that any info it knows about 'pdf2' transype applies here and then some -->
     <!-- @desc appears in as DITA Scenario type in Oxygen -->
     <transtype name="tbird-pdf" extends="pdf2" desc="Tbird PDF training 2023"/>
 

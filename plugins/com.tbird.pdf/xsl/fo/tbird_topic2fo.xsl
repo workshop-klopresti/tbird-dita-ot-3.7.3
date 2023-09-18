@@ -75,6 +75,7 @@ See the accompanying LICENSE file for applicable license.
     <xsl:import href="plugin:org.dita.pdf2.fop:xsl/fo/root-processing_fop.xsl"/>
     
     <xsl:import href="plugin:org.dita.pdf2:cfg/fo/attrs/topic-attr.xsl"/>
+    <xsl:import href="plugin:com.tbird.pdf:cfg/fo/attrs/tbird_topic-attr.xsl"/>
     <xsl:import href="plugin:org.dita.pdf2.fop:xsl/fo/topic_fop.xsl"/>
     <xsl:import href="plugin:com.tbird.pdf:xsl/fo/tbird_topic.xsl"/>
     

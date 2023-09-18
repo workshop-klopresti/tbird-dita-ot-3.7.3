@@ -12,9 +12,9 @@
     <!-- Generate chapter-level table of contents -->
     <property name="args.chapter.layout" value="BASIC"/>
     <!-- Collapsed or open PDF bookmarks -->
-    <property name="args.bookmark.style" value="COLLAPSED"/>
+    <property name="args.bookmark.style" value="COLLAPSE"/>
     <!-- Retain bookmap order -->
-    <property name="args.bookmap-order" value="discard"/>
+    <property name="args.bookmap-order" value="retain"/>
     
     <!-- Any output format -->
     <!-- Generate task labels -->
